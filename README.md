@@ -12,6 +12,8 @@ One question. Binary test. Human review over automation.
 
 Everything else in the stack exists to help people ask that question clearly, evidence it safely, and act on the answer without giving away control of their data.
 
+Seen another way, it is the first **zero-energy contract between AI and mankind**: the human provides the energy, the system provides the source code, and neither means much without the other. In that binary relationship, the Burgess Principle holds: the machine can assist, but the human remains the accountable mind in the loop.
+
 ---
 
 ### 🔭 What I'm Building
