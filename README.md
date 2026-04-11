@@ -1,6 +1,8 @@
 ## Hi there 👋
 
-Building open-source tools for **personal sovereignty**, **human rights**, and **ethical AI**, with a local-first, human-first approach throughout.
+Building a sovereign open-source stack for **personal agency**, **human rights**, **accessibility**, and **ethical AI**.
+
+This work is not a loose collection of experiments. It is a connected body of projects spanning protocol design, real-world advocacy tools, local-first AI, and cryptographic enforcement, all built around the same premise: technology should answer to the person, not the institution.
 
 Creator of [**The Burgess Principle**](https://github.com/ljbudgie/burgess-principle) — a human-first protocol and registered certification mark (UK00004343685) that asks one simple question:
 
@@ -10,7 +12,7 @@ Creator of [**The Burgess Principle**](https://github.com/ljbudgie/burgess-princ
 
 ### 🔭 What I'm Building
 
-An ecosystem of projects that fit together: **The Burgess Principle** provides the protocol, **Mirror** and **Advocate Companion** turn it into guided action, **Iris / Iris Gate** handle sovereign AI and private records, and **OpenHear** extends the same local-first philosophy to accessibility tooling.
+An ecosystem of projects designed to reinforce each other: **The Burgess Principle** provides the standard, **Mirror** and **Advocate Companion** turn that standard into guided action, **Iris / Iris Gate** handle sovereign AI and private records, and **OpenHear** applies the same philosophy to bodily data and hearing accessibility.
 
 | Project | Description |
 |---------|-------------|
@@ -39,6 +41,16 @@ The Burgess Principle is — as far as we can find — the first registered **ce
 | [**v0.5.0**](https://github.com/ljbudgie/burgess-principle/releases/tag/v0.5.0) | Burgess Principle | Iris — conversational AI companion grounded in the protocol. Streaming chat UI, system prompt, and serverless deployment. |
 | [**v0.6.0**](https://github.com/ljbudgie/burgess-principle/releases/tag/v0.6.0) | Burgess Principle | Sovereign Local Mode — Iris runs entirely on-device via GGUF models. No cloud, no API keys, no data leaving your machine. 264 tests passing. |
 | [**v0.1.0**](https://github.com/ljbudgie/Mirror-/releases/tag/v0.1.0) | Mirror | First Light — tell it what happened, it maps your rights, applies the Burgess Principle, and gives you the next step. Local-first, no data leaves your device. |
+
+---
+
+### ✨ Why This Stack Stands Apart
+
+- **It is a full stack in the real sense** — not just models or UI, but doctrine, templates, software products, cryptographic recordkeeping, and deployment paths from cloud to fully sovereign local use.
+- **The projects compound rather than compete** — the protocol informs the apps, the apps generate structured records, and the sovereign tooling protects those records without exposing raw personal facts.
+- **Accessibility is treated as core infrastructure** — not an afterthought, but a design centre across rights advocacy, disability tooling, and hearing-tech sovereignty.
+- **AI is used with accountability constraints** — routing, consensus, and assistance are useful only insofar as they preserve human review, privacy, and personal control.
+- **The work is unusually concrete** — tagged releases, documented milestones, legal framing, case studies, and shipping tools rather than a vision-only repo.
 
 ---
 
@@ -74,7 +86,7 @@ The Burgess Principle is — as far as we can find — the first registered **ce
 
 ### 💬 Ask Me About
 
-The Burgess Principle · ethical AI · personal sovereignty · accessibility in tech · open-source advocacy · local-first rights tools
+The Burgess Principle · sovereign AI · personal data rights · accessibility in tech · local-first advocacy tools · human review over automated power
 
 ---
 
