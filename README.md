@@ -22,6 +22,22 @@ Creator of [**The Burgess Principle**](https://github.com/ljbudgie/burgess-princ
 
 ---
 
+### 🚀 Release Milestones
+
+The Burgess Principle is — as far as we can find — the first registered **certification mark** published as a forkable, MIT-licensed open-source protocol on GitHub. Standards bodies issue certification marks; none had released one as a community-forkable repo with cryptographic enforcement until now.
+
+| Release | Project | Milestone |
+|---------|---------|-----------|
+| [**v0.1.0**](https://github.com/ljbudgie/burgess-principle/releases/tag/v0.1.0) | Burgess Principle | First release — binary predicate, calm templates, Python toolkit, 90+ tests, and the registered certification mark (UK00004343685) as an open-source protocol. |
+| [**v0.2.0**](https://github.com/ljbudgie/burgess-principle/releases/tag/v0.2.0) | Burgess Principle | Commitment-only mode — send a single SHA-256 hash instead of personal facts. Fresh commitments by default for unlinkability. |
+| [**v0.3.0**](https://github.com/ljbudgie/burgess-principle/releases/tag/v0.3.0) | Burgess Principle | Cryptographic security hardening — eight vulnerabilities fixed, AES-256-GCM, PBKDF2, zero third-party crypto beyond audited `@noble/*`. |
+| [**v0.4.0**](https://github.com/ljbudgie/burgess-principle/releases/tag/v0.4.0) | Burgess Principle | On-chain Burgess Claims — SHA-256 + Ed25519 commitment fingerprints posted to EVM L2 for neutral timestamping. No personal data touches the chain. |
+| [**v0.5.0**](https://github.com/ljbudgie/burgess-principle/releases/tag/v0.5.0) | Burgess Principle | Iris — conversational AI companion grounded in the protocol. Streaming chat UI, system prompt, and serverless deployment. |
+| [**v0.6.0**](https://github.com/ljbudgie/burgess-principle/releases/tag/v0.6.0) | Burgess Principle | Sovereign Local Mode — Iris runs entirely on-device via GGUF models. No cloud, no API keys, no data leaving your machine. 264 tests passing. |
+| [**v0.1.0**](https://github.com/ljbudgie/Mirror-/releases/tag/v0.1.0) | Mirror | First Light — tell it what happened, it maps your rights, applies the Burgess Principle, and gives you the next step. Local-first, no data leaves your device. |
+
+---
+
 ### 🛠️ Tech Stack
 
 **Core** &nbsp;
