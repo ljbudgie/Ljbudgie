@@ -1,6 +1,8 @@
 ## Hi there 👋
 
-Building open-source tools for **personal sovereignty**, **human rights** & **ethical AI**.
+Building a sovereign open-source stack for **personal agency**, **human rights**, **accessibility**, and **ethical AI**.
+
+This work is not a loose collection of experiments. It is a connected body of projects spanning protocol design, real-world advocacy tools, local-first AI, and cryptographic enforcement, all built around the same premise: technology should answer to the person, not the institution.
 
 Creator of [**The Burgess Principle**](https://github.com/ljbudgie/burgess-principle) — a human-first protocol and registered certification mark (UK00004343685) that asks one simple question:
 
@@ -10,19 +12,23 @@ Creator of [**The Burgess Principle**](https://github.com/ljbudgie/burgess-princ
 
 ### 🔭 What I'm Building
 
+An ecosystem of projects designed to reinforce each other: **The Burgess Principle** provides the standard, **Mirror** and **Advocate Companion** turn that standard into guided action, **Iris / Iris Gate** handle sovereign AI and private records, and **OpenHear** applies the same philosophy to bodily data and hearing accessibility.
+
 | Project | Description |
 |---------|-------------|
-| [**The Burgess Principle**](https://github.com/ljbudgie/burgess-principle) | Minimalist human-first protocol for demanding individual scrutiny over automated decisions. Calm templates, Python toolkit, and optional Sovereign Personal Vault with local-first Iris. |
-| [**Iris**](https://github.com/ljbudgie/Iris) | The AI that looks after people first. Multi-model orchestration with smart routing and consensus. Includes Sovereign Local Mode (fully on-device). |
-| [**Mirror**](https://github.com/ljbudgie/Mirror-) | Local-first personal sovereignty toolkit. Tell it what happened — it maps your rights, applies the Burgess Principle, and suggests the next step. Hybrid deterministic + optional local Ollama AI with graceful fallback. |
-| [**Nexus AI Hub**](https://github.com/ljbudgie/nexus-ai-hub) | AI helper hub with agent capabilities and skills. |
-| [**Iris Gate**](https://github.com/ljbudgie/iris-gate-person) | Sovereign personal vault — keep facts private, share only cryptographic fingerprints, receive signed human-review receipts. |
-| [**Advocate Companion**](https://github.com/ljbudgie/advocate-companion) | AI-powered Reasonable Adjustment Companion for ADHD, autism & hidden disabilities under Equality Act 2010 / ADA. |
-| [**OpenHear**](https://github.com/ljbudgie/openhear) | Sovereign audio pipeline for hearing aid users. Your audiogram. Your data. Your algorithms. |
+| [**The Burgess Principle**](https://github.com/ljbudgie/burgess-principle) | Human-first protocol for challenging automated decisions: one binary test, calm templates, a Python toolkit, and optional sovereign cryptographic enforcement. |
+| [**Iris**](https://github.com/ljbudgie/Iris) | AI companion built to look after people first. Multi-model orchestration, routing, and consensus with sovereign handling for personal facts. |
+| [**Mirror**](https://github.com/ljbudgie/Mirror-) | Local-first rights mapping toolkit: tell it what happened and it classifies the issue, maps the rights involved, drafts the question, and gives one clear next step. |
+| [**Nexus AI Hub**](https://github.com/ljbudgie/nexus-ai-hub) | Experimental AI hub that brings together agent tooling, memory, skills, and advocacy projects into one cohesive stack. |
+| [**Iris Gate**](https://github.com/ljbudgie/iris-gate-person) | Sovereign personal vault for commitments, signed receipts, and private record handling without exposing raw facts. |
+| [**Advocate Companion**](https://github.com/ljbudgie/advocate-companion) | Reasonable Adjustment Companion for ADHD, autism, and hidden disabilities under the Equality Act 2010 / ADA. |
+| [**OpenHear**](https://github.com/ljbudgie/openhear) | Sovereign hearing-tech pipeline: your audiogram, your data, your algorithms. |
 
 ---
 
-### 🚀 Release Milestones
+### 🚀 Project Releases & Milestones
+
+This repository is the profile hub, so releases are published in the individual project repositories rather than here. The linked milestones below point to the tagged releases that mark the main steps in the ecosystem.
 
 The Burgess Principle is — as far as we can find — the first registered **certification mark** published as a forkable, MIT-licensed open-source protocol on GitHub. Standards bodies issue certification marks; none had released one as a community-forkable repo with cryptographic enforcement until now.
 
@@ -38,28 +44,23 @@ The Burgess Principle is — as far as we can find — the first registered **ce
 
 ---
 
+### ✨ Why This Stack Stands Apart
+
+- **It is a full stack in the real sense** — not just models or UI, but doctrine, templates, software products, cryptographic recordkeeping, and deployment paths from cloud to fully sovereign local use.
+- **The projects compound rather than compete** — the protocol informs the apps, the apps generate structured records, and the sovereign tooling protects those records without exposing raw personal facts.
+- **Accessibility is treated as core infrastructure** — not an afterthought, but a design centre across rights advocacy, disability tooling, and hearing-tech sovereignty.
+- **AI is used with accountability constraints** — routing, consensus, and assistance are useful only insofar as they preserve human review, privacy, and personal control.
+- **The work is unusually concrete** — tagged releases, documented milestones, legal framing, case studies, and shipping tools rather than a vision-only repo.
+
+---
+
 ### 🛠️ Tech Stack
 
-**Core** &nbsp;
-![Python](https://img.shields.io/badge/-Python_3.11+-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![HTML/CSS/JS](https://img.shields.io/badge/-HTML%2FCSS%2FJS-E34F26?style=flat-square&logo=html5&logoColor=white)
-
-**AI & Local Inference** &nbsp;
-![Ollama](https://img.shields.io/badge/-Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
-![llama.cpp](https://img.shields.io/badge/-llama--cpp--python-4B0082?style=flat-square)
-
-**Frontend** &nbsp;
-![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-
-**Infrastructure** &nbsp;
-![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-
-**Cryptography** · SHA-256 commitment hashing for verifiable records without exposing personal data
-**Testing** · pytest + accessibility audits
+- **Core languages:** ![Python](https://img.shields.io/badge/-Python_3.11+-3776AB?style=flat-square&logo=python&logoColor=white) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![HTML/CSS/JS](https://img.shields.io/badge/-HTML%2FCSS%2FJS-E34F26?style=flat-square&logo=html5&logoColor=white)
+- **Frontend:** ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white) ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+- **Local AI:** ![Ollama](https://img.shields.io/badge/-Ollama-000000?style=flat-square&logo=ollama&logoColor=white) ![llama.cpp](https://img.shields.io/badge/-llama--cpp--python-4B0082?style=flat-square)
+- **Runtime & delivery:** ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white) ![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+- **Security & assurance:** SHA-256 commitments, Ed25519 signatures, AES-256-GCM / PBKDF2 hardening, pytest, and accessibility audits
 
 ---
 
@@ -73,9 +74,19 @@ The Burgess Principle is — as far as we can find — the first registered **ce
 
 ---
 
+### 🧭 How It Fits Together
+
+- **The Burgess Principle** sets the human-first standard.
+- **Mirror** and **Advocate Companion** help people apply it in real situations.
+- **Iris** provides the AI layer, while **Iris Gate** keeps sensitive facts sovereign.
+- **OpenHear** extends the same privacy-first philosophy into hearing accessibility.
+- **Nexus AI Hub** is the broader experimentation space for agent tooling, memory, and skills.
+
+---
+
 ### 💬 Ask Me About
 
-The Burgess Principle · ethical AI · personal sovereignty · accessibility in tech · open-source advocacy · local-first rights tools
+The Burgess Principle · sovereign AI · personal data rights · accessibility in tech · local-first advocacy tools · human review over automated power
 
 ---
 
