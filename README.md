@@ -108,6 +108,23 @@ This repository is the profile hub, so releases are published in the individual 
 
 ---
 
+### 📈 Current Strength Snapshot
+
+Based on the checked upstream releases, repository structure, test surfaces, and workflow evidence as of **11 April 2026**:
+
+| Project | Current strength | Why |
+|---------|------------------|-----|
+| [**The Burgess Principle**](https://github.com/ljbudgie/burgess-principle) | **Strong / more mature** | Six tagged releases through **v0.6.0**, visible CI on push + pull request, explicit multi-version Python test matrix (**3.11 / 3.12 / 3.13**), published security hardening history, broad documentation, and a larger verified surface spanning protocol, templates, API, on-chain claims, and local AI. |
+| [**Mirror**](https://github.com/ljbudgie/Mirror-) | **Promising / early-stage but well-shaped** | A clean **v0.1.0** foundation with strong product clarity, modular Python core, and a meaningful pytest surface across classification, rights mapping, commitments, templates, deadlines, and AI adapter logic — but fewer releases and less visible operational maturity than Burgess Principle at this stage. |
+
+#### Projected relative position
+
+- **The Burgess Principle** currently looks like the stronger repository in terms of maturity, release depth, operational proof, and visible assurance practices.
+- **Mirror** looks strong in concept and architecture, with a good early test surface and a very coherent first release, but it still reads like a first-generation product rather than a battle-hardened platform.
+- Taken together, that is actually a healthy pattern: **The Burgess Principle** is the established doctrinal and technical anchor, while **Mirror** is a focused application layer with clear room to grow.
+
+---
+
 ### ✨ Why This Stack Stands Apart
 
 - **It is a full stack in the real sense** — not just models or UI, but doctrine, templates, software products, cryptographic recordkeeping, and deployment paths from cloud to fully sovereign local use.
