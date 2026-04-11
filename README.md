@@ -1,29 +1,31 @@
 ## Hi there 👋
 
-Building a sovereign open-source stack for **personal agency**, **human rights**, **accessibility**, and **ethical AI**.
+Building a sovereign open-source stack for **personal agency**, **human review**, **accessibility**, and **privacy-first AI**.
 
-This is a profile hub for a connected ecosystem: a human-first protocol, real-world rights tooling, local-first AI, and cryptographic recordkeeping that all push in the same direction — software that answers to the person, not the institution.
+This repository is the profile hub for a connected ecosystem of projects that all push in the same direction: software that answers to the person, not the institution.
 
-At the centre is [**The Burgess Principle**](https://github.com/ljbudgie/burgess-principle), a human-first protocol and registered UK certification mark (**UK00004343685**) built around one diagnostic question:
+At the centre is [**The Burgess Principle**](https://github.com/ljbudgie/burgess-principle):
 
 > *"Was a human member of the team able to personally review the specific facts of my specific situation?"*
 
-Everything else in the stack is there to help people ask that question clearly, evidence it safely, and act on the answer.
+One question. Binary test. Human review over automation.
+
+Everything else in the stack exists to help people ask that question clearly, evidence it safely, and act on the answer without giving away control of their data.
 
 ---
 
 ### 🔭 What I'm Building
 
-An ecosystem of projects designed to reinforce each other: **The Burgess Principle** provides the standard, **Mirror** and **Advocate Companion** turn that standard into guided action, **Iris / Iris Gate** handle sovereign AI and private records, and **OpenHear** applies the same philosophy to bodily data and hearing accessibility.
+The stack now spans doctrine, templates, applied tools, sovereign recordkeeping, and hardware-bound AI workflows.
 
 | Project | Description |
 |---------|-------------|
-| [**The Burgess Principle**](https://github.com/ljbudgie/burgess-principle) | Human-first protocol for challenging automated decisions: one binary test, calm templates, case studies, a Python toolkit, Iris as a cloud/local AI companion, and optional sovereign cryptographic + on-chain enforcement. |
-| [**Iris**](https://github.com/ljbudgie/Iris) | AI companion built to look after people first. Multi-model orchestration, routing, and consensus with sovereign handling for personal facts. |
-| [**Mirror**](https://github.com/ljbudgie/Mirror-) | Local-first rights mapping toolkit: tell it what happened and it classifies the issue, maps the rights involved, tracks deadlines, drafts the communication, hashes outgoing messages, and gives one clear next step. |
-| [**Nexus AI Hub**](https://github.com/ljbudgie/nexus-ai-hub) | Experimental AI hub that brings together agent tooling, memory, skills, and advocacy projects into one cohesive stack. |
-| [**Iris Gate**](https://github.com/ljbudgie/iris-gate-person) | Sovereign personal vault for commitments, signed receipts, and private record handling without exposing raw facts. |
-| [**Advocate Companion**](https://github.com/ljbudgie/advocate-companion) | Reasonable Adjustment Companion for ADHD, autism, and hidden disabilities under the Equality Act 2010 / ADA. |
+| [**The Burgess Principle**](https://github.com/ljbudgie/burgess-principle) | The doctrinal and technical anchor: binary human-review test, real-world templates, cryptographic evidence, on-chain commitments, installable PWA flows, Sovereign Local Mode, and the latest **Mirror Mode** identity layer. |
+| [**Mirror**](https://github.com/ljbudgie/Mirror-) | Local-first rights mapper: describe what happened, classify the issue, map the rights involved, draft the communication, track deadlines, and get one clear next step. |
+| [**Advocate Companion**](https://github.com/ljbudgie/advocate-companion) | Reasonable-adjustment and self-advocacy companion for ADHD, autism, and hidden disabilities, grounded in the Burgess Principle. |
+| [**Iris**](https://github.com/ljbudgie/Iris) | AI companion and orchestration layer built to look after people first: routing, consensus, memory, and practical human-first assistance. |
+| [**Iris Gate**](https://github.com/ljbudgie/iris-gate-person) | Sovereign personal vault for commitments, signed receipts, and private fact handling without exposing raw evidence. |
+| [**Nexus AI Hub**](https://github.com/ljbudgie/nexus-ai-hub) | Broader experimentation space for agents, memory, skills, and connected advocacy tooling. |
 | [**OpenHear**](https://github.com/ljbudgie/openhear) | Sovereign hearing-tech pipeline: your audiogram, your data, your algorithms. |
 
 ---
@@ -32,47 +34,50 @@ An ecosystem of projects designed to reinforce each other: **The Burgess Princip
 
 #### The Burgess Principle
 
-The Burgess Principle is the doctrinal core of the stack. It is deliberately narrow: not a sprawling theory of everything, but a crisp test for a very specific failure mode in modern systems — decisions that affect real people without an identifiable human mind having actually reviewed the facts.
+The Burgess Principle is the doctrinal core of the stack. It is deliberately narrow: a crisp test for a specific failure mode in modern systems — decisions that affect real people without an identifiable human mind having actually reviewed the facts.
 
-What makes it interesting is not just the question itself, but the way the repository turns that question into a usable practice:
+What makes the project stronger now is how far that idea has been turned into a usable practice:
 
-- **Protocol layer** — a single binary predicate (**SOVEREIGN / NULL**) that can be applied consistently.
-- **Practical layer** — calm, ready-to-send templates for disputes, access requests, benefits, enforcement, council tax, disability-related issues, and more.
-- **Evidence layer** — case studies, audit trails, institutional registers, and documentation aimed at making the question operational rather than abstract.
-- **Sovereign technical layer** — optional local cryptographic tooling, Ed25519-signed receipts, SHA-256 commitments, and on-chain timestamping that avoid exposing personal facts.
-- **AI layer** — **Iris**, which now runs either in hosted cloud mode or fully offline in **Sovereign Local Mode**.
+- **Protocol layer** — a single binary finding: **SOVEREIGN** or **NULL**.
+- **Practical layer** — calm templates for disputes, access requests, benefits, enforcement, banking, crypto, disability-related issues, and more.
+- **Execution layer** — **Iris** can now turn a plain-language account into a filled, signed, Vault-saved claim.
+- **Sovereign layer** — SHA-256 commitments, Ed25519 signatures, encrypted local vault storage, and optional on-chain fingerprinting.
+- **Device layer** — an installable phone-first PWA and fully local **Sovereign Mode**.
+- **Identity layer** — **Mirror Mode**, where local claim flows can start from a hardware-linked sovereign profile.
 
-From the checked release history, the project has moved quickly from doctrine into tooling:
+From the checked release history, the repository has moved fast from doctrine into a practical sovereign advocate:
 
-- **v0.1.0** established the core protocol, templates, verification toolkit, and initial test suite.
-- **v0.2.0** introduced commitment-only workflows so users can send a hash instead of raw personal facts.
-- **v0.3.0** hardened the cryptographic layer after review, replacing weak primitives and removing fragile dependencies.
-- **v0.4.0** added **On-Chain Burgess Claims** for neutral timestamping and verifiable commitments on EVM L2.
-- **v0.5.0** made **Iris** the practical conversational interface.
-- **v0.6.0** pushed the stack fully local with **Sovereign Local Mode**, installation scripts, a modernised UI, and expanded automated test coverage.
+- **v0.1.0** established the core protocol, templates, toolkit, and initial assurance surface.
+- **v0.2.0 – v0.4.0** added commitment-only workflows, cryptographic hardening, and optional on-chain Burgess Claims.
+- **v0.5.0 – v0.6.0** made Iris the interface and then pushed it fully local in Sovereign Local Mode.
+- **v0.7.0** expanded into banking, crypto, and streamlined template discovery.
+- **v0.8.0** added the Iris Auto-Generator and Sovereign Claim Builder.
+- **v0.9.0** made the phone the primary sovereign advocate through an installable PWA flow.
+- **v1.0** introduced personal sovereign identity for signed, profile-linked claim generation.
+- **v1.1.1** added **Mirror Mode**, making Iris a local cryptographic mirror of the person using the device.
 
-That combination — protocol, templates, cryptographic recordkeeping, and local-first AI — is what makes the project stand out. It is not just arguing that human review matters; it is trying to make that demand legible, repeatable, and technically enforceable.
+That combination is what makes the project stand out: it is no longer just a framework for asking the right question, but a concrete stack for turning that question into action while keeping full facts sovereign.
 
 #### Mirror
 
-If the Burgess Principle is the test, **Mirror** is one of the most direct ways to apply it in practice.
+If the Burgess Principle is the test, **Mirror** is one of the cleanest applied tools built around it.
 
 Mirror takes a plain-English account of what happened and turns it into a structured next move:
 
-- it **classifies the situation** into one of nine domains
+- it **classifies the situation**
 - it **maps the rights involved**
 - it **drafts the communication**
 - it **tracks deadlines**
 - it **gives one next step instead of a vague list**
 
-The architecture matters as much as the feature set. Mirror is explicitly **local-first**:
+Mirror is explicitly **local-first**:
 
 - the interface is a simple local web app
 - the core logic is Python-based and deterministic by default
-- there is **no required server, account, cookie banner, analytics, or cloud backend**
+- there is **no required server, account, analytics, or cloud backend**
 - optional AI support stays local via **Ollama**
 
-That design choice fits the wider ecosystem well. Mirror is not trying to be a generic legal chatbot. It is a restrained rights-mapping tool: classify, orient, draft, move. The inclusion of 27 templates, statutory timelines, and commitment hashing shows a bias toward helping people do something concrete with a difficult situation, not just understand it conceptually.
+That design fits the wider ecosystem well. Mirror is not trying to be a generic legal chatbot. It is a restrained rights-mapping tool: classify, orient, draft, move.
 
 The checked release history currently shows **Mirror v0.1.0 — First Light** as the first public milestone: the core local-first rights mapper built on the Burgess Principle, with privacy preserved by default.
 
@@ -86,19 +91,24 @@ This repository is the profile hub, so releases are published in the individual 
 
 | Project | Latest checked release | What it means |
 |---------|------------------------|---------------|
-| [**The Burgess Principle**](https://github.com/ljbudgie/burgess-principle) | [**v0.6.0**](https://github.com/ljbudgie/burgess-principle/releases/tag/v0.6.0) | Iris now runs entirely on local hardware in Sovereign Local Mode, with install scripts, updated UI, and expanded test coverage. |
-| [**Mirror**](https://github.com/ljbudgie/Mirror-) | [**v0.1.0 — First Light**](https://github.com/ljbudgie/Mirror-/releases/tag/v0.1.0) | First public release of the local-first rights mapper: classify the issue, map rights, generate the question, and give the next step. |
+| [**The Burgess Principle**](https://github.com/ljbudgie/burgess-principle) | [**v1.1.1 — Mirror Mode**](https://github.com/ljbudgie/burgess-principle/releases/tag/v1.1.1) | The stack now supports hardware-linked sovereign identity reflection, local contact reuse, phone-first claim flows, and Mirror Mode as the new local identity layer. |
+| [**Mirror**](https://github.com/ljbudgie/Mirror-) | [**v0.1.0 — First Light**](https://github.com/ljbudgie/Mirror-/releases/tag/v0.1.0) | First public release of the local-first rights mapper: classify the issue, map the rights, draft the communication, and give the next step. |
 
 #### Burgess Principle milestone path
 
 | Release | Project | Milestone |
 |---------|---------|-----------|
-| [**v0.1.0**](https://github.com/ljbudgie/burgess-principle/releases/tag/v0.1.0) | Burgess Principle | First release — binary predicate, calm templates, Python toolkit, 90+ tests, and the registered certification mark (UK00004343685) as an open-source protocol. |
-| [**v0.2.0**](https://github.com/ljbudgie/burgess-principle/releases/tag/v0.2.0) | Burgess Principle | Commitment-only mode — send a single SHA-256 hash instead of personal facts. Fresh commitments by default for unlinkability. |
-| [**v0.3.0**](https://github.com/ljbudgie/burgess-principle/releases/tag/v0.3.0) | Burgess Principle | Cryptographic security hardening — eight vulnerabilities fixed, AES-256-GCM, PBKDF2, zero third-party crypto beyond audited `@noble/*`. |
-| [**v0.4.0**](https://github.com/ljbudgie/burgess-principle/releases/tag/v0.4.0) | Burgess Principle | On-chain Burgess Claims — SHA-256 + Ed25519 commitment fingerprints posted to EVM L2 for neutral timestamping. No personal data touches the chain. |
-| [**v0.5.0**](https://github.com/ljbudgie/burgess-principle/releases/tag/v0.5.0) | Burgess Principle | Iris — conversational AI companion grounded in the protocol. Streaming chat UI, system prompt, and serverless deployment. |
-| [**v0.6.0**](https://github.com/ljbudgie/burgess-principle/releases/tag/v0.6.0) | Burgess Principle | Sovereign Local Mode — Iris runs entirely on-device via GGUF models. No cloud, no API keys, no data leaving your machine. 264 tests passing. |
+| [**v0.1.0**](https://github.com/ljbudgie/burgess-principle/releases/tag/v0.1.0) | Burgess Principle | First release — binary predicate, calm templates, Python toolkit, 90+ tests, and the registered certification mark (**UK00004343685**). |
+| [**v0.2.0**](https://github.com/ljbudgie/burgess-principle/releases/tag/v0.2.0) | Burgess Principle | Commitment-only mode — send a single SHA-256 hash instead of personal facts. |
+| [**v0.3.0**](https://github.com/ljbudgie/burgess-principle/releases/tag/v0.3.0) | Burgess Principle | Cryptographic security hardening — stronger primitives, fewer fragile dependencies, tighter assurance. |
+| [**v0.4.0**](https://github.com/ljbudgie/burgess-principle/releases/tag/v0.4.0) | Burgess Principle | On-Chain Burgess Claims — commitment fingerprints posted to EVM L2 for neutral timestamping without exposing personal data. |
+| [**v0.5.0**](https://github.com/ljbudgie/burgess-principle/releases/tag/v0.5.0) | Burgess Principle | Iris — conversational AI companion grounded in the protocol. |
+| [**v0.6.0**](https://github.com/ljbudgie/burgess-principle/releases/tag/v0.6.0) | Burgess Principle | Sovereign Local Mode — Iris runs entirely on-device. |
+| [**v0.7.0**](https://github.com/ljbudgie/burgess-principle/releases/tag/v0.7.0) | Burgess Principle | Financial and crypto expansion — new templates plus faster routing and discovery. |
+| [**v0.8.0**](https://github.com/ljbudgie/burgess-principle/releases/tag/v0.8.0) | Burgess Principle | Iris Auto-Generator + Sovereign Claim Builder — generate, fill, sign, and save claims from natural language. |
+| [**v0.9.0**](https://github.com/ljbudgie/burgess-principle/releases/tag/v0.9.0) | Burgess Principle | Phone as Sovereign Advocate — installable PWA, voice-first claim flow, and local mobile vault workflow. |
+| [**v1.0**](https://github.com/ljbudgie/burgess-principle/releases/tag/v.1.0) | Burgess Principle | First Contact — personal sovereign identity and signed profile-linked claim generation. |
+| [**v1.1.1**](https://github.com/ljbudgie/burgess-principle/releases/tag/v1.1.1) | Burgess Principle | Mirror Mode — hardware identity reflection, mirrored contact reuse, and a more personal sovereign local workflow. |
 
 #### Mirror milestone path
 
@@ -108,30 +118,34 @@ This repository is the profile hub, so releases are published in the individual 
 
 ---
 
-### 📈 Current Strength Snapshot
+### 📈 Current Stack Snapshot
 
-Based on the checked upstream releases, repository structure, test surfaces, and workflow evidence as of **11 April 2026**:
+Based on the checked upstream releases, repository positioning, and visible documentation as of **11 April 2026**:
 
-| Project | Current strength | Why |
-|---------|------------------|-----|
-| [**The Burgess Principle**](https://github.com/ljbudgie/burgess-principle) | **Strong / more mature** | Six tagged releases through **v0.6.0**, visible CI on push + pull request, explicit multi-version Python test matrix (**3.11 / 3.12 / 3.13**), published security hardening history, broad documentation, and a larger verified surface spanning protocol, templates, API, on-chain claims, and local AI. |
-| [**Mirror**](https://github.com/ljbudgie/Mirror-) | **Promising / early-stage but well-shaped** | A clean **v0.1.0** foundation with strong product clarity, modular Python core, and a meaningful pytest surface across classification, rights mapping, commitments, templates, deadlines, and AI adapter logic — but fewer releases and less visible operational maturity than Burgess Principle at this stage. |
+| Project | Current role | Snapshot |
+|---------|--------------|----------|
+| [**The Burgess Principle**](https://github.com/ljbudgie/burgess-principle) | **Anchor** | The most mature public layer in the stack: doctrine, templates, cryptographic evidence, local AI, installable phone workflow, sovereign profile, and Mirror Mode. |
+| [**Mirror**](https://github.com/ljbudgie/Mirror-) | **Applied rights mapper** | Focused, local-first tool with a strong first release and a very clear product shape. |
+| [**Advocate Companion**](https://github.com/ljbudgie/advocate-companion) | **Accessibility application** | Brings the same human-first logic into reasonable adjustments and disability self-advocacy. |
+| [**Iris**](https://github.com/ljbudgie/Iris) | **AI orchestration layer** | Explores routing, consensus, memory, and practical human-first AI behaviour outside the core doctrine repo. |
+| [**Iris Gate**](https://github.com/ljbudgie/iris-gate-person) | **Sovereign records layer** | Keeps personal facts private while exposing only commitments, receipts, and proof surfaces when needed. |
+| [**OpenHear**](https://github.com/ljbudgie/openhear) | **Hearing sovereignty** | Extends the same privacy-first philosophy into hearing data and accessibility. |
 
-#### Projected relative position
+Taken together, the pattern is now clearer than before:
 
-- **The Burgess Principle** currently looks like the stronger repository in terms of maturity, release depth, operational proof, and visible assurance practices.
-- **Mirror** looks strong in concept and architecture, with a good early test surface and a very coherent first release, but it still reads like a first-generation product rather than a battle-hardened platform.
-- Taken together, that is actually a healthy pattern: **The Burgess Principle** is the established doctrinal and technical anchor, while **Mirror** is a focused application layer with clear room to grow.
+- **The Burgess Principle** is the doctrinal and shipping anchor.
+- **Mirror** and **Advocate Companion** are the most direct application layers.
+- **Iris**, **Iris Gate**, and **Nexus AI Hub** expand the sovereign AI and tooling surface around that core.
 
 ---
 
 ### ✨ Why This Stack Stands Apart
 
-- **It is a full stack in the real sense** — not just models or UI, but doctrine, templates, software products, cryptographic recordkeeping, and deployment paths from cloud to fully sovereign local use.
-- **The projects compound rather than compete** — the protocol informs the apps, the apps generate structured records, and the sovereign tooling protects those records without exposing raw personal facts.
-- **Accessibility is treated as core infrastructure** — not an afterthought, but a design centre across rights advocacy, disability tooling, and hearing-tech sovereignty.
-- **AI is used with accountability constraints** — routing, consensus, and assistance are useful only insofar as they preserve human review, privacy, and personal control.
-- **The work is unusually concrete** — tagged releases, documented milestones, legal framing, case studies, and shipping tools rather than a vision-only repo.
+- **It is a real stack, not just a model or a UI** — doctrine, templates, apps, cryptographic proof, and deployment paths from cloud to fully local sovereign use.
+- **The projects reinforce each other** — the Principle defines the standard, the apps operationalise it, and the sovereign tooling protects the records they create.
+- **Accessibility is part of the architecture** — not an afterthought, but a design centre across advocacy, disability tooling, and hearing-tech work.
+- **AI is used under accountability constraints** — useful only insofar as it preserves human review, privacy, and personal control.
+- **The work is concrete** — tagged releases, documented milestones, shipping tooling, and practical workflows rather than vision-only claims.
 
 ---
 
@@ -140,8 +154,8 @@ Based on the checked upstream releases, repository structure, test surfaces, and
 - **Core languages:** ![Python](https://img.shields.io/badge/-Python_3.11+-3776AB?style=flat-square&logo=python&logoColor=white) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![HTML/CSS/JS](https://img.shields.io/badge/-HTML%2FCSS%2FJS-E34F26?style=flat-square&logo=html5&logoColor=white)
 - **Frontend:** ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white) ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 - **Local AI:** ![Ollama](https://img.shields.io/badge/-Ollama-000000?style=flat-square&logo=ollama&logoColor=white) ![llama.cpp](https://img.shields.io/badge/-llama--cpp--python-4B0082?style=flat-square)
-- **Runtime & delivery:** ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white) ![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-- **Security & assurance:** SHA-256 commitments, Ed25519 signatures, AES-256-GCM / PBKDF2 hardening, pytest, and accessibility audits
+- **Runtime & delivery:** ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white) ![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=white) ![PWA](https://img.shields.io/badge/-Installable_PWA-5A0FC8?style=flat-square)
+- **Security & assurance:** SHA-256 commitments, Ed25519 signatures, encrypted local vault workflows, optional on-chain fingerprinting, pytest, and accessibility audits
 
 ---
 
@@ -149,19 +163,20 @@ Based on the checked upstream releases, repository structure, test surfaces, and
 
 - ⚖️ **Ethical AI & Human-First Protocols** — keeping humans meaningfully in the loop
 - 🔐 **Privacy-First & Data Sovereignty** — local-first design, cryptographic commitments, zero external servers where possible
-- ♿ **Accessibility & Neurodiversity** — tooling for ADHD, autism & hidden disabilities
-- 📜 **Legal Tech & Digital Rights** — Equality Act, GDPR, institutional accountability
-- 🤖 **Multi-Model AI Orchestration** — smart routing and consensus with local options
+- ♿ **Accessibility & Neurodiversity** — tooling for ADHD, autism, hidden disabilities, and hearing accessibility
+- 📜 **Legal Tech & Digital Rights** — accountability, institutional challenge, and structured self-advocacy
+- 🤖 **Sovereign AI Workflows** — smart routing, consensus, claim generation, and local identity reflection
 
 ---
 
 ### 🧭 How It Fits Together
 
-- **The Burgess Principle** sets the human-first standard.
+- **The Burgess Principle** sets the standard.
 - **Mirror** and **Advocate Companion** help people apply it in real situations.
-- **Iris** provides the AI layer, while **Iris Gate** keeps sensitive facts sovereign.
-- **OpenHear** extends the same privacy-first philosophy into hearing accessibility.
-- **Nexus AI Hub** is the broader experimentation space for agent tooling, memory, and skills.
+- **Iris** provides the broader AI layer.
+- **Iris Gate** keeps sensitive facts and commitments sovereign.
+- **OpenHear** extends the same philosophy into hearing accessibility.
+- **Nexus AI Hub** is the wider experimentation space for agents, memory, and skills.
 
 ---
 
