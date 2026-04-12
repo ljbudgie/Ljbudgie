@@ -22,7 +22,7 @@ The stack now spans doctrine, templates, applied tools, a sovereign AI companion
 
 | Project | Description |
 |---------|-------------|
-| [**The Burgess Principle**](https://github.com/ljbudgie/burgess-principle) | The doctrinal and technical anchor: binary human-review test, real-world templates, cryptographic evidence, on-chain commitments, installable PWA flows, Sovereign Local Mode, and the latest **Mirror Mode** identity layer. |
+| [**The Burgess Principle**](https://github.com/ljbudgie/burgess-principle) | The doctrinal and technical anchor: binary human-review test, real-world templates, cryptographic evidence, on-chain commitments, installable PWA flows, Sovereign Local Mode, Mirror Mode identity, and the new **Verifiable Memory Palace** ledger layer. |
 | [**Mirror**](https://github.com/ljbudgie/Mirror-) | Local-first rights mapper: describe what happened, classify the issue, map the rights involved, draft the communication, track deadlines, and get one clear next step. |
 | [**Advocate Companion**](https://github.com/ljbudgie/advocate-companion) | Reasonable-adjustment and self-advocacy companion for ADHD, autism, and hidden disabilities, grounded in the Burgess Principle. |
 | [**Iris**](https://github.com/ljbudgie/Iris) | Sovereign AI companion: mobile-first command centre, voice-first interaction, letter templates, Memory Palace, Burgess governance, and Person Gate integration — built to look after people first. |
@@ -46,6 +46,7 @@ What makes the project stronger now is how far that idea has been turned into a 
 - **Sovereign layer** — SHA-256 commitments, Ed25519 signatures, encrypted local vault storage, and optional on-chain fingerprinting.
 - **Device layer** — an installable phone-first PWA and fully local **Sovereign Mode**.
 - **Identity layer** — **Mirror Mode**, where local claim flows can start from a hardware-linked sovereign profile.
+- **Ledger layer** — **Verifiable Memory Palace**, where memories, trigger events, rights mappings, and governance changes become commitment-chained entries with Merkle-rooted proofs.
 
 From the checked release history, the repository has moved fast from doctrine into a practical sovereign advocate:
 
@@ -57,6 +58,7 @@ From the checked release history, the repository has moved fast from doctrine in
 - **v0.9.0** made the phone the primary sovereign advocate through an installable PWA flow.
 - **v1.0** introduced personal sovereign identity for signed, profile-linked claim generation.
 - **v1.1.1** added **Mirror Mode**, making Iris a local cryptographic mirror of the person using the device.
+- **v1.2.0** turned the Memory Palace into a **commitment-chained sovereign ledger** with Merkle proofs, integrity checking, and Sovereign Hub Mode 2.0.
 
 That combination is what makes the project stand out: it is no longer just a framework for asking the right question, but a concrete stack for turning that question into action while keeping full facts sovereign.
 
@@ -69,12 +71,12 @@ Iris is a full Next.js application — not a prototype or experiment — purpose
 - **Sovereign Command Centre** — a three-panel desktop layout that collapses into a full-bleed immersive mobile experience with a living Iris orb, animated canvas, and persistent governance ribbon.
 - **Voice-first interaction** — a floating voice button and speech-recognition integration so the user can speak naturally rather than type.
 - **Letter templates** — 18 ready-made letter templates drawn from the Burgess Principle, accessible from a bottom sheet on mobile or a side panel on desktop.
-- **Memory Palace** — persistent visual memory gallery so Iris remembers context across sessions without leaking data externally.
+- **Memory Palace** — now a verifiable commitment-chained ledger, so memories and trigger events stay locally useful while gaining tamper-evident integrity proofs.
 - **Person Gate integration** — every personal-fact workflow routes through the sovereign data-handling protocol: commit locally, send only the cryptographic fingerprint, receive and validate the receipt, tag the outcome SOVEREIGN or NULL, and challenge where needed.
 - **Governance toggle** — real-time Burgess Principle compliance visible in the UI, with expandable "Show my thinking" transparency layers.
 - **PWA-installable** — designed to be the phone-first sovereign advocate alongside the Burgess Principle's installable claim flows.
 
-The technical stack under Iris is production-grade: shadcn/ui, Tailwind CSS, Radix primitives, Framer Motion animations, Drizzle ORM, Playwright end-to-end tests, Biome linting, and Vercel deployment — with self-hosting documentation for full sovereignty.
+The technical stack under Iris is production-grade: shadcn/ui, Tailwind CSS, Radix primitives, Framer Motion animations, Drizzle ORM, Playwright end-to-end tests, Biome linting, Web Worker offloading for heavy verification tasks, and Vercel deployment — with self-hosting documentation for full sovereignty.
 
 Iris is the layer where the Burgess Principle stops being a document and becomes a living, interactive relationship between a person and their AI.
 
@@ -105,13 +107,13 @@ The checked release history currently shows **Mirror v0.1.0 — First Light** as
 
 ### 🚀 Checked Releases & Milestones
 
-This repository is the profile hub, so releases are published in the individual project repositories rather than here. The links below reflect the checked upstream releases as of **11 April 2026**.
+This repository is the profile hub, so releases are published in the individual project repositories rather than here. The links below reflect the checked upstream releases as of **12 April 2026**.
 
 #### Latest checked releases
 
 | Project | Latest checked release | What it means |
 |---------|------------------------|---------------|
-| [**The Burgess Principle**](https://github.com/ljbudgie/burgess-principle) | [**v1.1.1 — Mirror Mode**](https://github.com/ljbudgie/burgess-principle/releases/tag/v1.1.1) | The stack now supports hardware-linked sovereign identity reflection, local contact reuse, phone-first claim flows, and Mirror Mode as the new local identity layer. |
+| [**The Burgess Principle**](https://github.com/ljbudgie/burgess-principle) | [**v1.2.0 — Verifiable Memory Palace**](https://github.com/ljbudgie/burgess-principle/releases/tag/v1.2.0) | The stack now adds a commitment-chained sovereign ledger, Merkle-rooted integrity proofs, selective disclosure, and Sovereign Hub Mode 2.0 without giving up local-first control. |
 | [**Mirror**](https://github.com/ljbudgie/Mirror-) | [**v0.1.0 — First Light**](https://github.com/ljbudgie/Mirror-/releases/tag/v0.1.0) | First public release of the local-first rights mapper: classify the issue, map the rights, draft the communication, and give the next step. |
 
 #### Burgess Principle milestone path
@@ -127,8 +129,9 @@ This repository is the profile hub, so releases are published in the individual 
 | [**v0.7.0**](https://github.com/ljbudgie/burgess-principle/releases/tag/v0.7.0) | Burgess Principle | Financial and crypto expansion — new templates plus faster routing and discovery. |
 | [**v0.8.0**](https://github.com/ljbudgie/burgess-principle/releases/tag/v0.8.0) | Burgess Principle | Iris Auto-Generator + Sovereign Claim Builder — generate, fill, sign, and save claims from natural language. |
 | [**v0.9.0**](https://github.com/ljbudgie/burgess-principle/releases/tag/v0.9.0) | Burgess Principle | Phone as Sovereign Advocate — installable PWA, voice-first claim flow, and local mobile vault workflow. |
-| [**v1.0**](https://github.com/ljbudgie/burgess-principle/releases/tag/v.1.0) | Burgess Principle | First Contact — personal sovereign identity and signed profile-linked claim generation. |
+| [**v1.0**](https://github.com/ljbudgie/burgess-principle/releases/tag/v1.0) | Burgess Principle | First Contact — personal sovereign identity and signed profile-linked claim generation. |
 | [**v1.1.1**](https://github.com/ljbudgie/burgess-principle/releases/tag/v1.1.1) | Burgess Principle | Mirror Mode — hardware identity reflection, mirrored contact reuse, and a more personal sovereign local workflow. |
+| [**v1.2.0**](https://github.com/ljbudgie/burgess-principle/releases/tag/v1.2.0) | Burgess Principle | Verifiable Memory Palace — commitment-chained ledger blocks, Merkle proofs, full integrity verification, and Sovereign Hub Mode 2.0 for manual-first sync. |
 
 #### Mirror milestone path
 
@@ -140,11 +143,11 @@ This repository is the profile hub, so releases are published in the individual 
 
 ### 📈 Current Stack Snapshot
 
-Based on the checked upstream releases, repository positioning, and visible documentation as of **11 April 2026**:
+Based on the checked upstream releases, repository positioning, and visible documentation as of **12 April 2026**:
 
 | Project | Current role | Snapshot |
 |---------|--------------|----------|
-| [**The Burgess Principle**](https://github.com/ljbudgie/burgess-principle) | **Anchor** | The most mature public layer in the stack: doctrine, templates, cryptographic evidence, local AI, installable phone workflow, sovereign profile, and Mirror Mode. |
+| [**The Burgess Principle**](https://github.com/ljbudgie/burgess-principle) | **Anchor** | The most mature public layer in the stack: doctrine, templates, cryptographic evidence, local AI, installable phone workflow, sovereign profile, Mirror Mode, and a verifiable commitment-chained memory ledger. |
 | [**Mirror**](https://github.com/ljbudgie/Mirror-) | **Applied rights mapper** | Focused, local-first tool with a strong first release and a very clear product shape. |
 | [**Advocate Companion**](https://github.com/ljbudgie/advocate-companion) | **Accessibility application** | Brings the same human-first logic into reasonable adjustments and disability self-advocacy. |
 | [**Iris**](https://github.com/ljbudgie/Iris) | **Sovereign AI companion** | Complete, shipping mobile-first companion: voice interaction, letter templates, Memory Palace, Person Gate integration, governance ribbon, PWA-installable, production-grade Next.js stack with end-to-end tests and self-hosting docs. |
@@ -176,7 +179,7 @@ Taken together, the pattern is now clearer than before:
 - **Frontend:** ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white) ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![Radix UI](https://img.shields.io/badge/-Radix_UI-161618?style=flat-square&logo=radixui&logoColor=white) ![Framer Motion](https://img.shields.io/badge/-Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white)
 - **Local AI:** ![Ollama](https://img.shields.io/badge/-Ollama-000000?style=flat-square&logo=ollama&logoColor=white) ![llama.cpp](https://img.shields.io/badge/-llama--cpp--python-4B0082?style=flat-square)
 - **Runtime & delivery:** ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white) ![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=white) ![PWA](https://img.shields.io/badge/-Installable_PWA-5A0FC8?style=flat-square)
-- **Security & assurance:** SHA-256 commitments, Ed25519 signatures, encrypted local vault workflows, optional on-chain fingerprinting, pytest, and accessibility audits
+- **Security & assurance:** SHA-256 commitments, Ed25519 signatures, Merkle-rooted inclusion proofs, encrypted local vault workflows, optional on-chain fingerprinting, pytest, and accessibility audits
 
 ---
 
