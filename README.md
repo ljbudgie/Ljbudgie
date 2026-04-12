@@ -22,7 +22,7 @@ The stack now spans doctrine, templates, applied tools, a sovereign AI companion
 
 | Project | Description |
 |---------|-------------|
-| [**The Burgess Principle**](https://github.com/ljbudgie/burgess-principle) | The doctrinal and technical anchor: binary human-review test, real-world templates, cryptographic evidence, on-chain commitments, installable PWA flows, Sovereign Local Mode, Mirror Mode identity, and the new **Verifiable Memory Palace** ledger layer. |
+| [**The Burgess Principle**](https://github.com/ljbudgie/burgess-principle) | The doctrinal and technical anchor: binary human-review test, real-world templates, cryptographic evidence, on-chain commitments, installable PWA flows, Sovereign Local Mode, Mirror Mode identity, Verifiable Memory Palace ledger, and the new **Sovereign Core** unified verifiable architecture. |
 | [**Mirror**](https://github.com/ljbudgie/Mirror-) | Local-first rights mapper: describe what happened, classify the issue, map the rights involved, draft the communication, track deadlines, and get one clear next step. |
 | [**Advocate Companion**](https://github.com/ljbudgie/advocate-companion) | Reasonable-adjustment and self-advocacy companion for ADHD, autism, and hidden disabilities, grounded in the Burgess Principle. |
 | [**Iris**](https://github.com/ljbudgie/Iris) | Sovereign AI companion: mobile-first command centre, voice-first interaction, letter templates, Memory Palace, Burgess governance, and Person Gate integration — built to look after people first. |
@@ -47,6 +47,7 @@ What makes the project stronger now is how far that idea has been turned into a 
 - **Device layer** — an installable phone-first PWA and fully local **Sovereign Mode**.
 - **Identity layer** — **Mirror Mode**, where local claim flows can start from a hardware-linked sovereign profile.
 - **Ledger layer** — **Verifiable Memory Palace**, where memories, trigger events, rights mappings, and governance changes become commitment-chained entries with Merkle-rooted proofs.
+- **Unified architecture layer** — **Sovereign Core**, where all commitment, audit, connectivity, and profile logic is defined once and shared across every runtime surface.
 
 From the checked release history, the repository has moved fast from doctrine into a practical sovereign advocate:
 
@@ -59,6 +60,7 @@ From the checked release history, the repository has moved fast from doctrine in
 - **v1.0** introduced personal sovereign identity for signed, profile-linked claim generation.
 - **v1.1.1** added **Mirror Mode**, making Iris a local cryptographic mirror of the person using the device.
 - **v1.2.0** turned the Memory Palace into a **commitment-chained sovereign ledger** with Merkle proofs, integrity checking, and Sovereign Hub Mode 2.0.
+- **v1.3.0** consolidated all sovereignty-critical runtime logic into a shared **Sovereign Core** — unified commitment orchestration, connectivity-aware sync, standardised audit paths, and a single sovereignty profile propagated across the entire stack.
 
 That combination is what makes the project stand out: it is no longer just a framework for asking the right question, but a concrete stack for turning that question into action while keeping full facts sovereign.
 
@@ -113,7 +115,7 @@ This repository is the profile hub, so releases are published in the individual 
 
 | Project | Latest checked release | What it means |
 |---------|------------------------|---------------|
-| [**The Burgess Principle**](https://github.com/ljbudgie/burgess-principle) | [**v1.2.0 — Verifiable Memory Palace**](https://github.com/ljbudgie/burgess-principle/releases/tag/v1.2.0) | The stack now adds a commitment-chained sovereign ledger, Merkle-rooted integrity proofs, selective disclosure, and Sovereign Hub Mode 2.0 without giving up local-first control. |
+| [**The Burgess Principle**](https://github.com/ljbudgie/burgess-principle) | [**v1.3.0 — Sovereign Core: Unified Verifiable Architecture**](https://github.com/ljbudgie/burgess-principle/releases/tag/v1.3.0) | All sovereignty-critical runtime logic is now consolidated into a shared Sovereign Core — unified commitment orchestration, connectivity-aware sync policy, standardised audit paths, and a single sovereignty profile across PWA, Memory Palace, Hub Mode, and service worker. |
 | [**Mirror**](https://github.com/ljbudgie/Mirror-) | [**v0.1.0 — First Light**](https://github.com/ljbudgie/Mirror-/releases/tag/v0.1.0) | First public release of the local-first rights mapper: classify the issue, map the rights, draft the communication, and give the next step. |
 
 #### Burgess Principle milestone path
@@ -132,6 +134,7 @@ This repository is the profile hub, so releases are published in the individual 
 | [**v1.0**](https://github.com/ljbudgie/burgess-principle/releases/tag/v1.0) | Burgess Principle | First Contact — personal sovereign identity and signed profile-linked claim generation. |
 | [**v1.1.1**](https://github.com/ljbudgie/burgess-principle/releases/tag/v1.1.1) | Burgess Principle | Mirror Mode — hardware identity reflection, mirrored contact reuse, and a more personal sovereign local workflow. |
 | [**v1.2.0**](https://github.com/ljbudgie/burgess-principle/releases/tag/v1.2.0) | Burgess Principle | Verifiable Memory Palace — commitment-chained ledger blocks, Merkle proofs, full integrity verification, and Sovereign Hub Mode 2.0 for manual-first sync. |
+| [**v1.3.0**](https://github.com/ljbudgie/burgess-principle/releases/tag/v1.3.0) | Burgess Principle | Sovereign Core — unified verifiable architecture consolidating commitment orchestration, connectivity-aware sync, audit helpers, and sovereignty profile into a single shared runtime across the entire stack. |
 
 #### Mirror milestone path
 
@@ -147,7 +150,7 @@ Based on the checked upstream releases, repository positioning, and visible docu
 
 | Project | Current role | Snapshot |
 |---------|--------------|----------|
-| [**The Burgess Principle**](https://github.com/ljbudgie/burgess-principle) | **Anchor** | The most mature public layer in the stack: doctrine, templates, cryptographic evidence, local AI, installable phone workflow, sovereign profile, Mirror Mode, and a verifiable commitment-chained memory ledger. |
+| [**The Burgess Principle**](https://github.com/ljbudgie/burgess-principle) | **Anchor** | The most mature public layer in the stack: doctrine, templates, cryptographic evidence, local AI, installable phone workflow, sovereign profile, Mirror Mode, verifiable commitment-chained memory ledger, and a unified Sovereign Core architecture that makes the entire runtime easier to audit and harder to drift. |
 | [**Mirror**](https://github.com/ljbudgie/Mirror-) | **Applied rights mapper** | Focused, local-first tool with a strong first release and a very clear product shape. |
 | [**Advocate Companion**](https://github.com/ljbudgie/advocate-companion) | **Accessibility application** | Brings the same human-first logic into reasonable adjustments and disability self-advocacy. |
 | [**Iris**](https://github.com/ljbudgie/Iris) | **Sovereign AI companion** | Complete, shipping mobile-first companion: voice interaction, letter templates, Memory Palace, Person Gate integration, governance ribbon, PWA-installable, production-grade Next.js stack with end-to-end tests and self-hosting docs. |
