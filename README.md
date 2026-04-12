@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-Building a sovereign open-source ecosystem around **personal agency**, **human review**, **accessibility**, **privacy-first AI**, and **verifiable trust**.
+Building a sovereign open-source ecosystem around **personal agency**, **human review**, **accessibility**, **privacy-first AI**, and **verifiable proof**.
 
 ### Positioning Statement
 
@@ -58,7 +58,8 @@ This body of work demonstrates:
 - **Frontend:** ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white) ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![Radix UI](https://img.shields.io/badge/-Radix_UI-161618?style=flat-square&logo=radixui&logoColor=white) ![Framer Motion](https://img.shields.io/badge/-Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white)
 - **Local AI:** ![Ollama](https://img.shields.io/badge/-Ollama-000000?style=flat-square&logo=ollama&logoColor=white) ![llama.cpp](https://img.shields.io/badge/-llama--cpp--python-4B0082?style=flat-square)
 - **Runtime & delivery:** ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white) ![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=white) ![PWA](https://img.shields.io/badge/-Installable_PWA-5A0FC8?style=flat-square)
-- **Security & assurance:** SHA-256 commitments, Ed25519 signatures, Merkle-rooted inclusion proofs, encrypted local vault workflows, optional on-chain fingerprinting, pytest, Playwright, Biome, and accessibility audits
+- **Security & assurance:** SHA-256 commitments, Ed25519 signatures, Merkle-rooted inclusion proofs, encrypted local vault workflows, optional on-chain fingerprinting, and accessibility audits
+- **Development & testing:** pytest, Playwright, and Biome
 
 ---
 
