@@ -18,14 +18,14 @@ Seen another way, it is the first **zero-energy contract between AI and mankind*
 
 ### 🔭 What I'm Building
 
-The stack now spans doctrine, templates, applied tools, a sovereign AI companion, sovereign recordkeeping, and hardware-bound AI workflows.
+The stack now spans doctrine, templates, applied tools, a sovereign AI companion, sovereign recordkeeping, and hardware-bound AI workflows — with Iris now pushing further into a richer mobile-first sovereign command-centre shape.
 
 | Project | Description |
 |---------|-------------|
 | [**The Burgess Principle**](https://github.com/ljbudgie/burgess-principle) | The doctrinal and technical anchor: binary human-review test, real-world templates, cryptographic evidence, on-chain commitments, installable PWA flows, Sovereign Local Mode, and the latest **Mirror Mode** identity layer. |
 | [**Mirror**](https://github.com/ljbudgie/Mirror-) | Local-first rights mapper: describe what happened, classify the issue, map the rights involved, draft the communication, track deadlines, and get one clear next step. |
 | [**Advocate Companion**](https://github.com/ljbudgie/advocate-companion) | Reasonable-adjustment and self-advocacy companion for ADHD, autism, and hidden disabilities, grounded in the Burgess Principle. |
-| [**Iris**](https://github.com/ljbudgie/Iris) | Sovereign AI companion: mobile-first command centre, voice-first interaction, letter templates, Memory Palace, Burgess governance, and Person Gate integration — built to look after people first. |
+| [**Iris**](https://github.com/ljbudgie/Iris) | Sovereign AI companion: mobile-first sovereign command centre with a living Iris orb, voice-first interaction, collaborative artifacts, Memory Palace, governance ribbon, and Person Gate integration — now running on a modern Next.js 16 / React 19 / Tailwind 4 stack. |
 | [**Iris Gate**](https://github.com/ljbudgie/iris-gate-person) | Sovereign personal vault for commitments, signed receipts, and private fact handling without exposing raw evidence. |
 | [**Nexus AI Hub**](https://github.com/ljbudgie/nexus-ai-hub) | Broader experimentation space for agents, memory, skills, and connected advocacy tooling. |
 | [**OpenHear**](https://github.com/ljbudgie/openhear) | Sovereign hearing-tech pipeline: your audiogram, your data, your algorithms. |
@@ -64,17 +64,19 @@ That combination is what makes the project stand out: it is no longer just a fra
 
 If the Burgess Principle is the doctrine and Mirror is the rights mapper, **Iris** is the sovereign AI companion that ties the stack together in a single, shipping interface.
 
-Iris is a full Next.js application — not a prototype or experiment — purpose-built around the master-vision document in its own repository. It is designed mobile-first:
+Iris is a full Next.js application — not a prototype or experiment — purpose-built around the master-vision document in its own repository. The current codebase has moved again into a more ambitious mobile-first sovereign command centre:
 
 - **Sovereign Command Centre** — a three-panel desktop layout that collapses into a full-bleed immersive mobile experience with a living Iris orb, animated canvas, and persistent governance ribbon.
 - **Voice-first interaction** — a floating voice button and speech-recognition integration so the user can speak naturally rather than type.
+- **Multimodal input and rich outputs** — draggable input, quick actions, KaTeX, Mermaid, interactive tables, and transparency layers that make the interaction feel more like a command surface than a chat box.
 - **Letter templates** — 18 ready-made letter templates drawn from the Burgess Principle, accessible from a bottom sheet on mobile or a side panel on desktop.
+- **Collaborative artifacts** — side-by-side drafting, diffable outputs, and export-oriented workflows so Iris can help produce concrete next moves rather than just text on screen.
 - **Memory Palace** — persistent visual memory gallery so Iris remembers context across sessions without leaking data externally.
 - **Person Gate integration** — every personal-fact workflow routes through the sovereign data-handling protocol: commit locally, send only the cryptographic fingerprint, receive and validate the receipt, tag the outcome SOVEREIGN or NULL, and challenge where needed.
-- **Governance toggle** — real-time Burgess Principle compliance visible in the UI, with expandable "Show my thinking" transparency layers.
+- **Governance ribbon** — real-time Burgess Principle compliance visible in the UI, with expandable "Show my thinking" transparency layers.
 - **PWA-installable** — designed to be the phone-first sovereign advocate alongside the Burgess Principle's installable claim flows.
 
-The technical stack under Iris is production-grade: shadcn/ui, Tailwind CSS, Radix primitives, Framer Motion animations, Drizzle ORM, Playwright end-to-end tests, Biome linting, and Vercel deployment — with self-hosting documentation for full sovereignty.
+The technical stack under Iris has also stepped up: Next.js 16, React 19, Tailwind CSS 4, shadcn/ui, Radix primitives, Framer Motion, Drizzle ORM, AI SDK 6, Playwright end-to-end tests, Ultracite quality checks, and Vercel/Neon/Upstash deployment primitives — with self-hosting documentation for full sovereignty.
 
 Iris is the layer where the Burgess Principle stops being a document and becomes a living, interactive relationship between a person and their AI.
 
@@ -105,7 +107,7 @@ The checked release history currently shows **Mirror v0.1.0 — First Light** as
 
 ### 🚀 Checked Releases & Milestones
 
-This repository is the profile hub, so releases are published in the individual project repositories rather than here. The links below reflect the checked upstream releases as of **11 April 2026**.
+This repository is the profile hub, so releases are published in the individual project repositories rather than here. The links below reflect the checked upstream releases as of **12 April 2026**.
 
 #### Latest checked releases
 
@@ -140,14 +142,14 @@ This repository is the profile hub, so releases are published in the individual 
 
 ### 📈 Current Stack Snapshot
 
-Based on the checked upstream releases, repository positioning, and visible documentation as of **11 April 2026**:
+Based on the checked upstream releases, repository positioning, and visible documentation as of **12 April 2026**:
 
 | Project | Current role | Snapshot |
 |---------|--------------|----------|
 | [**The Burgess Principle**](https://github.com/ljbudgie/burgess-principle) | **Anchor** | The most mature public layer in the stack: doctrine, templates, cryptographic evidence, local AI, installable phone workflow, sovereign profile, and Mirror Mode. |
 | [**Mirror**](https://github.com/ljbudgie/Mirror-) | **Applied rights mapper** | Focused, local-first tool with a strong first release and a very clear product shape. |
 | [**Advocate Companion**](https://github.com/ljbudgie/advocate-companion) | **Accessibility application** | Brings the same human-first logic into reasonable adjustments and disability self-advocacy. |
-| [**Iris**](https://github.com/ljbudgie/Iris) | **Sovereign AI companion** | Complete, shipping mobile-first companion: voice interaction, letter templates, Memory Palace, Person Gate integration, governance ribbon, PWA-installable, production-grade Next.js stack with end-to-end tests and self-hosting docs. |
+| [**Iris**](https://github.com/ljbudgie/Iris) | **Sovereign AI companion** | Complete, shipping sovereign command centre: immersive mobile-first interface, living orb identity, voice-first interaction, collaborative artifacts, Memory Palace, Person Gate integration, governance ribbon, and a current Next.js 16 / React 19 / Tailwind 4 stack with Playwright and Ultracite. |
 | [**Iris Gate**](https://github.com/ljbudgie/iris-gate-person) | **Sovereign records layer** | Keeps personal facts private while exposing only commitments, receipts, and proof surfaces when needed. |
 | [**OpenHear**](https://github.com/ljbudgie/openhear) | **Hearing sovereignty** | Extends the same privacy-first philosophy into hearing data and accessibility. |
 
@@ -173,10 +175,10 @@ Taken together, the pattern is now clearer than before:
 ### 🛠️ Tech Stack
 
 - **Core languages:** ![Python](https://img.shields.io/badge/-Python_3.11+-3776AB?style=flat-square&logo=python&logoColor=white) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![HTML/CSS/JS](https://img.shields.io/badge/-HTML%2FCSS%2FJS-E34F26?style=flat-square&logo=html5&logoColor=white)
-- **Frontend:** ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white) ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![Radix UI](https://img.shields.io/badge/-Radix_UI-161618?style=flat-square&logo=radixui&logoColor=white) ![Framer Motion](https://img.shields.io/badge/-Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white)
+- **Frontend:** ![Next.js](https://img.shields.io/badge/-Next.js_16-000000?style=flat-square&logo=next.js&logoColor=white) ![React](https://img.shields.io/badge/-React_19-61DAFB?style=flat-square&logo=react&logoColor=black) ![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS_4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![Radix UI](https://img.shields.io/badge/-Radix_UI-161618?style=flat-square&logo=radixui&logoColor=white) ![Framer Motion](https://img.shields.io/badge/-Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white)
 - **Local AI:** ![Ollama](https://img.shields.io/badge/-Ollama-000000?style=flat-square&logo=ollama&logoColor=white) ![llama.cpp](https://img.shields.io/badge/-llama--cpp--python-4B0082?style=flat-square)
-- **Runtime & delivery:** ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white) ![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=white) ![PWA](https://img.shields.io/badge/-Installable_PWA-5A0FC8?style=flat-square)
-- **Security & assurance:** SHA-256 commitments, Ed25519 signatures, encrypted local vault workflows, optional on-chain fingerprinting, pytest, and accessibility audits
+- **Runtime & delivery:** ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white) ![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=white) ![Neon](https://img.shields.io/badge/-Neon-00E599?style=flat-square) ![Upstash](https://img.shields.io/badge/-Upstash-00E9A3?style=flat-square) ![PWA](https://img.shields.io/badge/-Installable_PWA-5A0FC8?style=flat-square)
+- **Security & assurance:** SHA-256 commitments, Ed25519 signatures, encrypted local vault workflows, optional on-chain fingerprinting, Playwright, Ultracite, pytest, and accessibility audits
 
 ---
 
