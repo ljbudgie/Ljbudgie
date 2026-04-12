@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-Building a sovereign open-source ecosystem around **personal agency**, **human review**, **accessibility**, **privacy-first AI**, and **verifiable proof**.
+Building a sovereign open-source ecosystem around **personal agency**, **human review**, **accessibility**, and **privacy-first AI**.
 
 ### Positioning Statement
 
@@ -132,7 +132,7 @@ This repository is the profile hub, so releases are published in the individual 
 |---------|-----------|
 | [**v0.1.0**](https://github.com/ljbudgie/burgess-principle/releases/tag/v0.1.0) | First release — binary predicate, calm templates, Python toolkit, 90+ tests, and the registered certification mark (**UK00004343685**). |
 | [**v0.2.0**](https://github.com/ljbudgie/burgess-principle/releases/tag/v0.2.0) | Commitment-only mode — send a single SHA-256 hash instead of personal facts. |
-| [**v0.3.0**](https://github.com/ljbudgie/burgess-principle/releases/tag/v0.3.0) | Cryptographic hardening — stronger primitives, tighter assurance, fewer fragile dependencies. |
+| [**v0.3.0**](https://github.com/ljbudgie/burgess-principle/releases/tag/v0.3.0) | Cryptographic hardening — stronger primitives, tighter assurance, and reduced dependence on brittle cryptographic libraries. |
 | [**v0.4.0**](https://github.com/ljbudgie/burgess-principle/releases/tag/v0.4.0) | On-chain commitment fingerprinting without exposing personal data. |
 | [**v0.5.0**](https://github.com/ljbudgie/burgess-principle/releases/tag/v0.5.0) | Iris introduced as a conversational companion grounded in the protocol. |
 | [**v0.6.0**](https://github.com/ljbudgie/burgess-principle/releases/tag/v0.6.0) | Sovereign Local Mode — Iris runs entirely on-device. |
