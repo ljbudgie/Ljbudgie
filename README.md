@@ -1,4 +1,4 @@
-# ljbudgie — Personal Sovereignty Ecosystem
+# LJ’s Personal Sovereignty Ecosystem
 
 **Administrative justice, sovereign AI, cryptographic proof, and accessibility-first product engineering fused into one local-first sovereignty stack.**
 
