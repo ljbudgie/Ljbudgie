@@ -69,7 +69,7 @@ This body of work demonstrates:
 
 The doctrinal and technical anchor of the ecosystem.
 
-- **What it is:** a binary human-review standard turned into templates, workflows, cryptographic evidence tooling, installable PWA flows, local AI support, sovereign identity, and a verifiable memory ledger.
+- **What it is:** a binary human-review standard turned into templates, workflows, cryptographic evidence tooling, installable PWA flows, local AI support, sovereign identity, a verifiable memory ledger, and a self-verifying sovereign runtime.
 - **Why it matters:** it gives people a concrete way to test whether meaningful human review actually happened.
 - **What principle it expresses:** accountability over automation.
 
@@ -117,13 +117,13 @@ The hearing-sovereignty branch of the ecosystem.
 
 ### Proof of Execution
 
-This repository is the profile hub, so releases are published in the individual project repositories rather than here. The links below reflect checked upstream releases as of **12 April 2026**.
+This repository is the profile hub, so releases are published in the individual project repositories rather than here. The links below reflect checked upstream releases as of **13 April 2026**.
 
 #### Latest checked releases
 
 | Project | Latest checked release | What it proves |
 |---------|------------------------|----------------|
-| [**The Burgess Principle**](https://github.com/ljbudgie/burgess-principle) | [**v1.3.0 — Sovereign Core: Unified Verifiable Architecture**](https://github.com/ljbudgie/burgess-principle/releases/tag/v1.3.0) | The stack has matured into a shared sovereignty-critical runtime with unified commitment orchestration, sync policy, audit paths, and profile handling. |
+| [**The Burgess Principle**](https://github.com/ljbudgie/burgess-principle) | [**v1.4.0 — Sovereign Local Mode & Verifiable Self-Proof**](https://github.com/ljbudgie/burgess-principle/releases/tag/v1.4.0) | The runtime now makes sovereignty visible at launch with self-verifying proof, a stronger offline guarantee, and deeper local trust boundaries. |
 | [**Mirror**](https://github.com/ljbudgie/Mirror-) | [**v0.1.0 — First Light**](https://github.com/ljbudgie/Mirror-/releases/tag/v0.1.0) | A local-first rights mapper has shipped publicly with a clear product shape and privacy preserved by default. |
 
 #### Burgess Principle milestone path
@@ -143,6 +143,7 @@ This repository is the profile hub, so releases are published in the individual 
 | [**v1.1.1**](https://github.com/ljbudgie/burgess-principle/releases/tag/v1.1.1) | Mirror Mode — hardware identity reflection and mirrored local workflow. |
 | [**v1.2.0**](https://github.com/ljbudgie/burgess-principle/releases/tag/v1.2.0) | Verifiable Memory Palace — commitment-chained ledger blocks with Merkle proofs and integrity verification. |
 | [**v1.3.0**](https://github.com/ljbudgie/burgess-principle/releases/tag/v1.3.0) | Sovereign Core — the unified verifiable architecture shared across the runtime. |
+| [**v1.4.0**](https://github.com/ljbudgie/burgess-principle/releases/tag/v1.4.0) | Sovereign Local Mode & Verifiable Self-Proof — startup self-verification, a stronger offline guarantee, and visible proof of the running code on local hardware. |
 
 #### Mirror milestone path
 
