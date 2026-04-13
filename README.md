@@ -9,7 +9,7 @@ This profile is a hub for open-source work built around **human agency, accounta
 | Domain | What it contributes | How it connects |
 | --- | --- | --- |
 | **Doctrine** | **The Burgess Principle** asks one binary question: was a human judicial mind applied to the specific facts of the specific case? | Outcomes resolve toward **SOVEREIGN** or **NULL**, giving the whole ecosystem a clear accountability test. |
-| **Cryptographic evidence** | **Memory Palace** and **Iris Gate** turn records into a **tamper-evident ledger** using **SHA-256 commitments**, **Ed25519**, optional **post-quantum readiness**, **Merkle trees**, **Merkle inclusion proofs**, and **selective disclosure**. | Private facts stay local while receipts remain verifiable. |
+| **Cryptographic evidence** | **Memory Palace** and **Iris Gate** turn records into a **tamper-evident ledger** with **SHA-256 commitments**, **Ed25519 signatures**, **Merkle-rooted receipts**, and **selective disclosure**, with optional **post-quantum** signing for longer-term assurance. | Private facts stay local while receipts remain verifiable. |
 | **Sovereign AI** | **Iris** is a **voice-first**, **local-first**, advisory companion running in **Sovereign Local Mode** with **Python + llama-cpp** and a **Next.js PWA** surface. | AI assists the person without displacing human judgment. |
 | **Accessibility-first design** | Disability-aware, phone-first, voice-friendly interfaces are treated as core architecture, not compliance garnish. | This keeps the tools usable in stressful, real-world conditions. |
 | **Applied delivery** | **Mirror**, **Advocate Companion**, **OpenHear**, and the **case studies** translate the doctrine into products, workflows, and evidence. | Legal theory, ethical AI, and engineering stay tied to lived outcomes. |
@@ -32,7 +32,7 @@ This combination is rare: **administrative justice + verifiable cryptography + e
 ## Key Skills & Execution
 
 - **Systems architecture** — doctrine, product surfaces, audit trails, and release design built as one stack.
-- **Cryptographic engineering** — SHA-256 commitments, Ed25519 signing, optional post-quantum signing, Merkle-rooted receipts, inclusion proofs, and selective disclosure.
+- **Cryptographic engineering** — commitment, signature, receipt, and disclosure schemes designed for durable local trust.
 - **Sovereign AI delivery** — local advisory AI with clear proof boundaries, human review discipline, and privacy-preserving workflows.
 - **Full-stack execution** — Python runtimes, llama-cpp integration, Next.js PWA delivery, and local-first UX.
 - **Accessibility-first design** — voice-first, disability-aware, mobile-first interfaces designed for people under pressure.
