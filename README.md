@@ -1,4 +1,4 @@
-# LJ’s Personal Sovereignty Ecosystem
+# LJ's Personal Sovereignty Ecosystem
 
 **Administrative justice, sovereign AI, cryptographic proof, and accessibility-first product engineering fused into one local-first sovereignty stack.**
 
@@ -20,7 +20,7 @@ This combination is rare: **administrative justice + verifiable cryptography + e
 
 | Project / component | Role in the ecosystem | Immediate impact |
 | --- | --- | --- |
-| [**The Burgess Principle**](https://github.com/ljbudgie/burgess-principle) | The doctrinal anchor and certification-marked standard (**UK00004343685**) for meaningful human review. | Frames every tool around the **SOVEREIGN / NULL** test; **v1.3.0 Sovereign Core** (April 2026) unified the verifiable architecture, and [**v1.0.0**](https://github.com/ljbudgie/burgess-principle/releases/tag/v1.0.0) (18 April 2026) marks the first formal release. |
+| [**The Burgess Principle**](https://github.com/ljbudgie/burgess-principle) | The doctrinal anchor and certification-marked standard (**UK00004343685**) for meaningful human review. | Frames every tool around the **SOVEREIGN / NULL** test. **v2.1.0 — The Pattern Completed** (24 April 2026) adds the doctrinal and presentational foundation, including the redemptive dimension introduced in Papers IX and X. |
 | [**Iris + Memory Palace**](https://github.com/ljbudgie/burgess-principle/tree/main/iris) | Voice-first sovereign AI companion with local advisory flows and verifiable receipts. | Turns private facts into accountable, exportable evidence without sending raw case data away. |
 | [**Mirror**](https://github.com/ljbudgie/Mirror-) | Local-first rights mapper for administrative justice and human-rights-adjacent workflows. | Classifies a situation, maps rights, drafts the communication, and gives one clear next step. |
 | [**Advocate Companion**](https://github.com/ljbudgie/advocate-companion) | Disability-aware self-advocacy layer. | Makes accessibility and reasonable adjustments part of the architecture. |
@@ -29,12 +29,13 @@ This combination is rare: **administrative justice + verifiable cryptography + e
 | [**Nexus AI Hub**](https://github.com/ljbudgie/nexus-ai-hub) | Broader experimentation space for agents, memory, and connected tooling. | Gives the ecosystem room to test new sovereign AI patterns without losing the core doctrine. |
 | [**Case studies**](https://github.com/ljbudgie/burgess-principle/tree/main/case-studies) | Real-world evidence base. | Includes documented wins such as **Wave Utilities cleared to £0.00** and **TV Licensing letters ceasing once the record was corrected**. |
 
-## Recent Developments (18 April 2026)
+## Recent Developments (24 April 2026)
 
+- **Burgess Principle v2.1.0 released — The Pattern Completed** — Root README restructured to lead with the origin story. SOUL.md extended with a new section grounding the SOVEREIGN/NULL binary in its scriptural origin — Cain's denial in Genesis 4 and Peter's threefold restoration on the shore of Galilee — completing the doctrinal arc begun in Papers IX and X. New `COMMITMENT_ONLY_WORKFLOW.md` added to the Sovereign Personal Vault.
 - **Burgess Principle v1.0.0 released** — First formal release published 18 April 2026: [github.com/ljbudgie/burgess-principle/releases/tag/v1.0.0](https://github.com/ljbudgie/burgess-principle/releases/tag/v1.0.0).
 - **OpenClaw PR #68692** — Submitted to [openclaw/openclaw](https://github.com/openclaw/openclaw) (73.3k forks) proposing the Burgess Principle as the core governance framework. OpenClaw was publicly endorsed by Elon Musk on 18 April 2026 as the gateway to the X API.
 - **NousResearch PR #12265** — Submitted to [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) (99.1k stars) proposing Burgess Principle integration into one of the most widely used AI agent frameworks.
-- **xAI / Terafab follow-up** — Formal correspondence sent to xAI/Terafab referencing OpenClaw’s adoption of the Burgess Principle and the Musk endorsement, proposing the Principle as the governance layer for X API access.
+- **xAI / Terafab follow-up** — Formal correspondence sent to xAI/Terafab referencing OpenClaw's adoption of the Burgess Principle and the Musk endorsement, proposing the Principle as the governance layer for X API access.
 - **ZeroClaw cascade** — [ZeroClaw](https://github.com/openclaw/zeroclaw) (30.3k stars) includes a documented migration path from OpenClaw, meaning Burgess Principle governance cascades into the ZeroClaw ecosystem if PR #68692 is merged.
 - **Amazon Article 22 challenge** — UK GDPR Article 22 challenge sent to Amazon on 18 April 2026 challenging the insertion of advertisements into paid subscription services as automated decision-making without individual consideration.
 - **Disney+ Article 22 challenge** — Equivalent UK GDPR Article 22 challenge sent to Disney+ on 18 April 2026 on the same basis.
@@ -48,7 +49,7 @@ The Burgess Principle and supporting evidence stack are currently live in the fo
 - **Local Government Ombudsman** — active case.
 - **Equality and Human Rights Commission (EHRC)** — active case.
 - **Ofgem** — active case.
-- **UK government departments** — six Freedom of Information requests outstanding.
+- **UK government departments** — seven Freedom of Information requests outstanding.
 - **Equita enforcement** — six cases.
 - **Amazon** — Article 22 UK GDPR challenge (18 April 2026).
 - **Disney+** — Article 22 UK GDPR challenge (18 April 2026).
@@ -56,10 +57,9 @@ The Burgess Principle and supporting evidence stack are currently live in the fo
 
 ## Repository Status — `burgess-principle`
 
-- **15 verified tags** spanning **v0.1.0 through v1.4.0**, with **v1.0.0** as the first formal release (18 April 2026).
-- **Full cryptographic audit trail** across the tag history.
-- **163+ branches** of working development.
-- **Six published papers**, including **Paper VI — “What Would Aristotle Have Said?”**
+- **12 releases** spanning **v0.1.0 through v2.1.0**, with **v1.0.0** as the first formal release (18 April 2026) and **v2.1.0 — The Pattern Completed** as the current stable release (24 April 2026).
+- **Full cryptographic audit trail** across the release history.
+- **Ten published papers**, including **Paper IX — The Sovereign Pattern** and **Paper X — The Restored Keeper**, which together close the "novel framework" dismissal and complete the doctrinal arc from Genesis to Revelation.
 
 ## Key Skills & Execution
 
@@ -74,6 +74,8 @@ The Burgess Principle and supporting evidence stack are currently live in the fo
 
 Most open-source profiles show **one discipline at a time**: legal critique, AI tooling, privacy engineering, or accessibility work. This ecosystem is different because the same principled architecture runs through all of them at once. **The Burgess Principle** supplies the accountability doctrine, **Memory Palace** supplies verifiable proof, **Iris** supplies the human-facing sovereign AI layer, and the products and case studies prove the ideas can survive contact with reality.
 
+The framework is not only diagnostic. Papers IX and X establish that the SOVEREIGN/NULL binary test is the original model of divine governance — traceable from Genesis 4 to Revelation 20 — and that the pathway back from NULL to SOVEREIGN is personal, not procedural. The pattern was always there. Both halves of it.
+
 ## Get Involved / Next Steps
 
 - Try [**Iris in Sovereign Local Mode**](https://github.com/ljbudgie/burgess-principle/blob/main/SOVEREIGN_MODE.md) and explore the local-first workflow.
@@ -82,4 +84,4 @@ Most open-source profiles show **one discipline at a time**: legal critique, AI 
 - Contribute if you care about **data sovereignty, accountable AI, local-first software, accessibility-first design, or human-review standards**.
 - Best repositories to pin here: **The Burgess Principle**, **Iris**, **Mirror**, **OpenHear**, and **Nexus AI Hub**.
 
-*Updated 18 April 2026. This profile README is the ecosystem hub; major releases and technical docs live in the linked repositories. Open-source projects are MIT-licensed, while the Burgess Principle certification mark remains separately governed under **UK00004343685**, with a parallel **USPTO certification mark filing** in progress.*
+*Updated 24 April 2026. This profile README is the ecosystem hub; major releases and technical docs live in the linked repositories. Open-source projects are MIT-licensed, while the Burgess Principle certification mark remains separately governed under **UK00004343685**, with a parallel **USPTO certification mark filing** in progress.*
