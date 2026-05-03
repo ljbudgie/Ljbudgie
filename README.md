@@ -1,93 +1,110 @@
-# LJ's Personal Sovereignty Ecosystem
+[![Stars](https://img.shields.io/github/stars/ljbudgie/burgess-principle?style=flat-square&label=burgess-principle%20stars)](https://github.com/ljbudgie/burgess-principle/stargazers)
+[![Release](https://img.shields.io/github/v/release/ljbudgie/burgess-principle?style=flat-square&label=latest%20release)](https://github.com/ljbudgie/burgess-principle/releases)
+[![Last commit](https://img.shields.io/github/last-commit/ljbudgie/burgess-principle?style=flat-square)](https://github.com/ljbudgie/burgess-principle/commits/main)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![Certification mark](https://img.shields.io/badge/UK_certification_mark-UK00004343685-black?style=flat-square)](https://github.com/ljbudgie/burgess-principle)
+[![Sovereign Local Mode](https://img.shields.io/badge/AI-Sovereign%20Local%20Mode-6E40C9?style=flat-square)](https://github.com/ljbudgie/burgess-principle/blob/main/SOVEREIGN_MODE.md)
 
-**Administrative justice, sovereign AI, cryptographic proof, and accessibility-first product engineering fused into one local-first sovereignty stack.**
+# When the computer says no, I build the answer.
 
-This profile is a hub for open-source work built around **human agency, accountability over automation, and data sovereignty**. The through-line is calm but exacting: help people — especially those under institutional pressure, including disabled and otherwise vulnerable users — keep facts local, preserve evidence, and secure meaningful human review. The result is an unusually unified body of work spanning **administrative justice, human rights, applied cryptography, ethical AI, accessibility, and real-world delivery**.
+> **A unified sovereignty stack — doctrine, cryptography, sovereign AI, and accessibility — shipping into real institutional cases. Not a manifesto. A working system.**
 
-## The Interdisciplinary Sovereignty Stack
+---
 
-| Domain | What it contributes | How it connects |
-| --- | --- | --- |
-| **Doctrine** | **The Burgess Principle** asks one binary question: was a human judicial mind applied to the specific facts of the specific case? | Outcomes resolve toward **SOVEREIGN** or **NULL**, giving the whole ecosystem a clear accountability test. |
-| **Cryptographic evidence** | **Memory Palace** and **Iris Gate** turn records into a **tamper-evident ledger** with **SHA-256 commitments**, **Ed25519 signatures**, **Merkle-rooted receipts**, and **selective disclosure**, with optional **post-quantum** signing for longer-term assurance. | Private facts stay local while receipts remain verifiable. |
-| **Sovereign AI** | **Iris** (the voice-first companion) and **Mythos** (the doctrinal memory and narrative layer) run in **Sovereign Local Mode** with **Python + llama-cpp** and a **Next.js PWA** surface, governed end-to-end through **git-native governance** — every doctrinal change, prompt, and policy lives as a signed commit in the repository, reviewable like code. | AI assists the person without displacing human judgment, and every change to its behaviour is publicly auditable. |
-| **Accessibility-first design** | Disability-aware, phone-first, voice-friendly interfaces are treated as core architecture, not compliance garnish. | This keeps the tools usable in stressful, real-world conditions. |
-| **Applied delivery** | **Mirror**, **Advocate Companion**, **OpenHear**, and the **case studies** translate the doctrine into products, workflows, and evidence. | Legal theory, ethical AI, and engineering stay tied to lived outcomes. |
+## The problem — and my answer
 
-This combination is rare: **administrative justice + verifiable cryptography + ethical sovereign AI + accessibility-first design + local-first product execution** in one coherent ecosystem.
+Institutions hide behind automation. *“The computer says no”* — without a single human ever looking at the facts.
 
-## Core Projects & Components
+I’m a disabled builder who got tired of that answer. So I built the **Burgess Principle**: one binary test — **was a human judicial mind applied to the specific facts of this case?** — and the open-source ecosystem to enforce it. Outcomes resolve to **SOVEREIGN** or **NULL**. No middle ground.
 
-| Project / component | Role in the ecosystem | Immediate impact |
-| --- | --- | --- |
-| [**The Burgess Principle**](https://github.com/ljbudgie/burgess-principle) | The doctrinal anchor and certification-marked standard (**UK00004343685**) for meaningful human review. | Frames every tool around the **SOVEREIGN / NULL** test. **v2.1.0 — The Pattern Completed** (24 April 2026) adds the doctrinal and presentational foundation, including the redemptive dimension introduced in Papers IX and X. |
-| [**OpenHear**](https://github.com/ljbudgie/openhear) | Hearing sovereignty branch of the ecosystem, and — to our knowledge — a **world first**: the first **fully sovereign, local-first audio pipeline built specifically for hearing aid users**, designed to bypass cloud processing and proprietary mobile stacks. Tested on **Phonak Naída M70-SP** and **Signia Insio 7AX**, with a **Raspberry Pi hardware build planned** for full iOS bypass and sovereign audio processing. | Extends data sovereignty and accessibility-first design into user-owned hearing technology, a domain where no comparable open, local-first stack has previously existed. |
-| [**Case studies**](https://github.com/ljbudgie/burgess-principle/tree/main/case-studies) | Real-world evidence base, and the closest the ecosystem comes to a **finance** surface — administrative justice translated into pounds and pence. | Includes documented wins such as **Wave Utilities cleared to £0.00** and **TV Licensing letters ceasing once the record was corrected**, alongside live matters in **Equita enforcement (six cases)**, the **Energy Ombudsman**, and **Ofgem**. |
-| [**Iris + Mythos + Memory Palace**](https://github.com/ljbudgie/burgess-principle/tree/main/iris) | Voice-first sovereign AI companion (**Iris**) paired with the doctrinal memory and narrative layer (**Mythos**), governed through **git-native governance** — prompts, policies, and doctrine ship as signed commits and reviewable PRs rather than opaque model updates. | Turns private facts into accountable, exportable evidence without sending raw case data away, and makes every behavioural change to the AI publicly auditable. |
-| [**Mirror**](https://github.com/ljbudgie/Mirror-) | Local-first rights mapper for administrative justice and human-rights-adjacent workflows. | Classifies a situation, maps rights, drafts the communication, and gives one clear next step. |
-| [**Advocate Companion**](https://github.com/ljbudgie/advocate-companion) | Disability-aware self-advocacy layer. | Makes accessibility and reasonable adjustments part of the architecture. |
-| [**Iris Gate**](https://github.com/ljbudgie/iris-gate-person) | Sovereign records and receipt boundary. | Supports commitment-only exchange, signed receipts, and minimum-necessary disclosure. |
-| [**Nexus AI Hub**](https://github.com/ljbudgie/nexus-ai-hub) | Broader experimentation space for agents, memory, and connected tooling. | Gives the ecosystem room to test new sovereign AI patterns without losing the core doctrine. |
+---
 
-## Recent Developments (3 May 2026)
+## 📊 Impact at a glance
 
-- **Iris + Mythos pairing formalised under git-native governance** — Iris (the voice-first companion) and **Mythos** (the doctrinal memory and narrative layer) are now developed and governed end-to-end through the repository itself. Prompts, policies, doctrinal updates, and behavioural changes ship as **signed commits and reviewable pull requests**, giving the sovereign AI layer the same audit discipline as the cryptographic stack and aligning it directly with the Burgess Principle's meaningful-human-review test.
-- **OpenHear recognised as a world first** — to our knowledge, OpenHear is the **first fully sovereign, local-first audio pipeline designed specifically for hearing aid users**, bypassing cloud processing and proprietary mobile stacks. Validated on **Phonak Naída M70-SP** and **Signia Insio 7AX**, with a **Raspberry Pi hardware build planned** for full iOS bypass. No comparable open, local-first hearing-aid stack is known to exist.
-- **Burgess Principle v2.1.0 — The Pattern Completed** (24 April 2026) remains the current stable doctrinal release, anchoring the SOVEREIGN/NULL test across Iris, Mythos, OpenHear, and the wider stack.
+| Metric | Reality |
+| --- | --- |
+| 🌍 **World first** | **OpenHear** — the first fully sovereign, local-first audio pipeline built specifically for hearing aid users *(Phonak Naída M70-SP, Signia Insio 7AX validated)* |
+| 💷 **First case fully resolved** | **Wave Utilities — cleared to £0.00** |
+| 📬 **Letters stopped** | **TV Licensing** ceased contact once the record was corrected |
+| ⚖️ **Article 22 challenges live** | **Amazon** + **Disney+** (UK GDPR, automated decision-making) |
+| 🏛️ **Active institutional cases** | Energy Ombudsman ×2 · Local Government Ombudsman · EHRC · Ofgem · Equita ×6 · 7 outstanding FOIs |
+| 🚀 **Releases shipped** | **12 releases**, v0.1.0 → **v2.1.0 “The Pattern Completed”** *(24 Apr 2026)* |
+| 📚 **Published papers** | **10**, including Paper IX *The Sovereign Pattern* and Paper X *The Restored Keeper* |
+| 🤝 **Upstream PRs open** | **OpenClaw #68692** *(73.3k forks)* · **NousResearch #12265** *(99.1k stars)* |
+| 🛡️ **Certification mark** | **UK00004343685** *(USPTO filing in progress)* |
 
-### Earlier (24 April 2026)
+---
 
-- **Burgess Principle v2.1.0 released — The Pattern Completed** — Root README restructured to lead with the origin story. SOUL.md extended with a new section grounding the SOVEREIGN/NULL binary in its scriptural origin — Cain's denial in Genesis 4 and Peter's threefold restoration on the shore of Galilee — completing the doctrinal arc begun in Papers IX and X. New `COMMITMENT_ONLY_WORKFLOW.md` added to the Sovereign Personal Vault.
-- **Burgess Principle v1.0.0 released** — First formal release published 18 April 2026: [github.com/ljbudgie/burgess-principle/releases/tag/v1.0.0](https://github.com/ljbudgie/burgess-principle/releases/tag/v1.0.0).
-- **OpenClaw PR #68692** — Submitted to [openclaw/openclaw](https://github.com/openclaw/openclaw) (73.3k forks) proposing the Burgess Principle as the core governance framework. OpenClaw was publicly endorsed by Elon Musk on 18 April 2026 as the gateway to the X API.
-- **NousResearch PR #12265** — Submitted to [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) (99.1k stars) proposing Burgess Principle integration into one of the most widely used AI agent frameworks.
-- **xAI / Terafab follow-up** — Formal correspondence sent to xAI/Terafab referencing OpenClaw's adoption of the Burgess Principle and the Musk endorsement, proposing the Principle as the governance layer for X API access.
-- **ZeroClaw cascade** — [ZeroClaw](https://github.com/openclaw/zeroclaw) (30.3k stars) includes a documented migration path from OpenClaw, meaning Burgess Principle governance cascades into the ZeroClaw ecosystem if PR #68692 is merged.
-- **Amazon Article 22 challenge** — UK GDPR Article 22 challenge sent to Amazon on 18 April 2026 challenging the insertion of advertisements into paid subscription services as automated decision-making without individual consideration.
-- **Disney+ Article 22 challenge** — Equivalent UK GDPR Article 22 challenge sent to Disney+ on 18 April 2026 on the same basis.
-- **USPTO filing** — US trademark attorney engaged for parallel **USPTO certification mark filing** alongside the existing UK application **UK00004343685**.
+## 🧱 The stack at a glance
 
-## Active Institutional Deployments
+| Layer | What it does |
+| --- | --- |
+| **Doctrine** | The **Burgess Principle** — one binary test, SOVEREIGN/NULL, certification-marked under **UK00004343685**. |
+| **Cryptographic proof** | **Memory Palace** + **Iris Gate** — SHA-256 commitments, Ed25519 signatures, Merkle receipts, selective disclosure, optional post-quantum signing. |
+| **Sovereign AI** | **Iris** (voice-first companion) + **Mythos** (doctrinal memory) running locally via Python + llama-cpp + Next.js PWA, governed end-to-end by **git-native governance**. |
+| **Hearing sovereignty** | **OpenHear** — local-first audio for hearing aid users, bypassing cloud and proprietary mobile stacks *(Raspberry Pi build planned)*. |
+| **Rights & advocacy** | **Mirror** + **Advocate Companion** — classify the situation, map the rights, draft the letter, give one clear next step. |
+| **Real cases** | Documented wins, live ombudsman matters, and Article 22 challenges in the [`case-studies`](https://github.com/ljbudgie/burgess-principle/tree/main/case-studies) directory. |
 
-The Burgess Principle and supporting evidence stack are currently live in the following matters:
+---
 
-- **Energy Ombudsman** — two cases.
-- **Local Government Ombudsman** — active case.
-- **Equality and Human Rights Commission (EHRC)** — active case.
-- **Ofgem** — active case.
-- **UK government departments** — seven Freedom of Information requests outstanding.
-- **Equita enforcement** — six cases.
-- **Amazon** — Article 22 UK GDPR challenge (18 April 2026).
-- **Disney+** — Article 22 UK GDPR challenge (18 April 2026).
-- **Wave Utilities** — first fully resolved case (cleared to £0.00).
+## 🛠️ Featured projects
 
-## Repository Status — `burgess-principle`
+- **[burgess-principle](https://github.com/ljbudgie/burgess-principle)** — The doctrinal anchor and certification-marked standard. **v2.1.0 — The Pattern Completed.**
+- **[openhear](https://github.com/ljbudgie/openhear)** — World-first sovereign, local-first audio pipeline for hearing aid users.
+- **[Mirror](https://github.com/ljbudgie/Mirror-)** — Local-first rights mapper for administrative justice and human-rights workflows.
+- **[advocate-companion](https://github.com/ljbudgie/advocate-companion)** — Disability-aware self-advocacy layer with reasonable adjustments built in.
+- **[iris-gate-person](https://github.com/ljbudgie/iris-gate-person)** — Sovereign records and signed-receipt boundary for minimum-necessary disclosure.
+- **[burgess-principle / iris](https://github.com/ljbudgie/burgess-principle/tree/main/iris)** — Iris + Mythos: voice-first sovereign AI, governed via signed commits.
+- **[nexus-ai-hub](https://github.com/ljbudgie/nexus-ai-hub)** — Experimentation space for agents, memory, and connected sovereign tooling.
+- **[case-studies](https://github.com/ljbudgie/burgess-principle/tree/main/case-studies)** — Real-world evidence base: pounds, pence, and paper trails.
 
-- **12 releases** spanning **v0.1.0 through v2.1.0**, with **v1.0.0** as the first formal release (18 April 2026) and **v2.1.0 — The Pattern Completed** as the current stable release (24 April 2026).
-- **Full cryptographic audit trail** across the release history.
-- **Ten published papers**, including **Paper IX — The Sovereign Pattern** and **Paper X — The Restored Keeper**, which together close the "novel framework" dismissal and complete the doctrinal arc from Genesis to Revelation.
+---
 
-## Key Skills & Execution
+## ⚙️ How it works
 
-- **Systems architecture** — doctrine, product surfaces, audit trails, and release design built as one stack.
-- **Cryptographic engineering** — commitment, signature, receipt, and disclosure schemes designed for durable local trust.
-- **Sovereign AI delivery** — local advisory AI with clear proof boundaries, human review discipline, and privacy-preserving workflows.
-- **Full-stack execution** — Python runtimes, llama-cpp integration, Next.js PWA delivery, and local-first UX.
-- **Accessibility-first design** — voice-first, disability-aware, mobile-first interfaces designed for people under pressure.
-- **Interdisciplinary synthesis** — administrative justice, human rights, ethical AI, cryptography, and product engineering kept in one coherent frame.
+```mermaid
+flowchart LR
+    A[Real-world dispute<br/>or institutional decision] --> B[Mirror / Advocate Companion<br/>classify rights · draft response]
+    B --> C[Iris + Mythos<br/>sovereign local AI<br/>git-native governance]
+    C --> D[Memory Palace + Iris Gate<br/>SHA-256 · Ed25519 · Merkle receipts]
+    D --> E{Burgess Principle test:<br/>was a human mind applied?}
+    E -->|Yes| F[✅ SOVEREIGN]
+    E -->|No| G[❌ NULL → escalate with proof]
+```
 
-## What Makes This Different
+1. **Capture** the facts locally — phone-first, voice-friendly, accessibility-first.
+2. **Map** the rights and draft the response with **Mirror** / **Advocate Companion**.
+3. **Reason** with **Iris + Mythos** in Sovereign Local Mode — every prompt and policy lives as a signed commit.
+4. **Prove it** with **Memory Palace** receipts, then apply the **SOVEREIGN/NULL** test and escalate if the answer is NULL.
 
-Most open-source profiles show **one discipline at a time**: legal critique, AI tooling, privacy engineering, or accessibility work. This ecosystem is different because the same principled architecture runs through all of them at once. **The Burgess Principle** supplies the accountability doctrine, **Memory Palace** supplies verifiable proof, **Iris and Mythos** supply the human-facing sovereign AI layer under **git-native governance**, **OpenHear** extends sovereignty into hearing technology as a **world first** for hearing aid users, and the products and case studies prove the ideas can survive contact with reality.
+> *Suggested: drop a richer Mermaid architecture diagram into [`/docs/architecture.md`](https://github.com/ljbudgie/burgess-principle) and link it here once it’s in.*
 
-The framework is not only diagnostic. Papers IX and X establish that the SOVEREIGN/NULL binary test is the original model of divine governance — traceable from Genesis 4 to Revelation 20 — and that the pathway back from NULL to SOVEREIGN is personal, not procedural. The pattern was always there. Both halves of it.
+---
 
-## Get Involved / Next Steps
+## 🔥 Recent momentum *(last 30–45 days)*
 
-- Try [**Iris in Sovereign Local Mode**](https://github.com/ljbudgie/burgess-principle/blob/main/SOVEREIGN_MODE.md) and explore the local-first workflow.
-- Read the [**case studies**](https://github.com/ljbudgie/burgess-principle/tree/main/case-studies) for concrete administrative justice outcomes and evidence patterns.
-- Explore [**Mirror**](https://github.com/ljbudgie/Mirror-) and [**OpenHear**](https://github.com/ljbudgie/openhear) to see how sovereignty extends across rights tooling and accessibility technology.
-- Contribute if you care about **data sovereignty, accountable AI, local-first software, accessibility-first design, or human-review standards**.
-- Best repositories to pin here: **The Burgess Principle**, **Iris**, **Mirror**, **OpenHear**, and **Nexus AI Hub**.
+- **Iris + Mythos under git-native governance** — every prompt, policy, and doctrinal change ships as a signed commit and reviewable PR. The AI layer now has the same audit discipline as the cryptographic stack.
+- **OpenHear recognised as a world first** — no comparable open, local-first hearing-aid stack is known to exist. Validated on Phonak Naída M70-SP and Signia Insio 7AX; Raspberry Pi build planned for full iOS bypass.
+- **Burgess Principle v2.1.0 — The Pattern Completed** *(24 Apr 2026)* — SOUL.md grounds SOVEREIGN/NULL in Genesis 4 and the restoration on the shore of Galilee, completing the arc of Papers IX and X.
+- **Upstream PRs open** — **OpenClaw [#68692](https://github.com/openclaw/openclaw)** *(73.3k forks · publicly endorsed by Elon Musk, 18 Apr 2026)* and **NousResearch [#12265](https://github.com/NousResearch/hermes-agent)** *(99.1k stars)*. ZeroClaw *(30.3k stars)* cascades governance if #68692 merges.
+- **Article 22 UK GDPR challenges live** — formal challenges sent to **Amazon** and **Disney+** *(18 Apr 2026)* on automated decision-making in paid subscriptions.
+- **xAI / Terafab correspondence** — proposing the Burgess Principle as the governance layer for X API access.
+- **USPTO filing** — US trademark attorney engaged for parallel certification mark alongside **UK00004343685**.
+- **Active institutional cases** — Energy Ombudsman ×2 · LGO · EHRC · Ofgem · Equita ×6 · 7 outstanding FOIs.
 
-*Updated 3 May 2026. This profile README is the ecosystem hub; major releases and technical docs live in the linked repositories. Open-source projects are MIT-licensed, while the Burgess Principle certification mark remains separately governed under **UK00004343685**, with a parallel **USPTO certification mark filing** in progress.*
+---
+
+## 🚪 Get started — join the movement
+
+- 🧠 **Try Iris** in [Sovereign Local Mode](https://github.com/ljbudgie/burgess-principle/blob/main/SOVEREIGN_MODE.md).
+- 📂 **Read the [case studies](https://github.com/ljbudgie/burgess-principle/tree/main/case-studies)** — see what SOVEREIGN/NULL looks like in pounds and pence.
+- 🛠️ **Explore the tools** — [Mirror](https://github.com/ljbudgie/Mirror-) · [OpenHear](https://github.com/ljbudgie/openhear) · [Advocate Companion](https://github.com/ljbudgie/advocate-companion) · [Iris Gate](https://github.com/ljbudgie/iris-gate-person).
+- 🤝 **Contribute** if you care about **data sovereignty, accountable AI, local-first software, accessibility-first design, or human-review standards**.
+- ⭐ **Star [burgess-principle](https://github.com/ljbudgie/burgess-principle)** to follow the doctrinal releases.
+
+> 📌 **Recommended pinned repos:** `burgess-principle` · `openhear` · `Mirror-` · `advocate-companion` · `nexus-ai-hub` · `iris-gate-person`.
+
+---
+
+<sub>Open-source projects are **MIT-licensed**. The Burgess Principle certification mark is separately governed under **UK00004343685**, with a parallel **USPTO certification mark filing** in progress. *Last updated: 3 May 2026.*</sub>
