@@ -63,22 +63,25 @@ I’m a disabled builder who got tired of that answer. So I built the **Burgess 
 
 ## ⚙️ How it works
 
+The stack turns a real-world decision into a clear record, tests whether a human actually reviewed it, and preserves the evidence needed to challenge the outcome.
+
 ```mermaid
 flowchart LR
-    A[Real-world dispute<br/>or institutional decision] --> B[Mirror / Advocate Companion<br/>classify rights · draft response]
-    B --> C[Iris + Mythos<br/>sovereign local AI<br/>git-native governance]
-    C --> D[Memory Palace + Iris Gate<br/>SHA-256 · Ed25519 · Merkle receipts]
-    D --> E{Burgess Principle test:<br/>was a human mind applied?}
-    E -->|Yes| F[✅ SOVEREIGN]
-    E -->|No| G[❌ NULL → escalate with proof]
+    A[Real-world dispute<br/>letter · bill · decision · refusal] --> B[Capture the facts locally<br/>voice-friendly · accessibility-first]
+    B --> C[Mirror / Advocate Companion<br/>classify rights · draft response]
+    C --> D[Iris + Mythos<br/>reason locally · preserve doctrine]
+    D --> E[Memory Palace + Iris Gate<br/>hashes · signatures · receipts]
+    E --> F{Burgess Principle test:<br/>was a human judicial mind applied<br/>to these facts?}
+    F -->|Yes| G[✅ SOVEREIGN<br/>record accepted]
+    F -->|No| H[❌ NULL<br/>escalate with proof]
 ```
 
-1. **Capture** the facts locally — phone-first, voice-friendly, accessibility-first.
-2. **Map** the rights and draft the response with **Mirror** / **Advocate Companion**.
-3. **Reason** with **Iris + Mythos** in Sovereign Local Mode — every prompt and policy lives as a signed commit.
-4. **Prove it** with **Memory Palace** receipts, then apply the **SOVEREIGN/NULL** test and escalate if the answer is NULL.
-
-> *Suggested: drop a richer Mermaid architecture diagram into [`/docs/architecture.md`](https://github.com/ljbudgie/burgess-principle) and link it here once it’s in.*
+1. **Capture the record.** Start with the actual facts: the decision, letter, bill, refusal, call note, or screenshot. Keep it local, accessible, and under the person’s control.
+2. **Classify the issue.** **Mirror** and **Advocate Companion** identify the rights, reasonable adjustments, statutory duties, and next best response.
+3. **Reason locally.** **Iris + Mythos** help turn the facts into a clear argument while keeping doctrine, prompts, and policy changes reviewable through signed commits.
+4. **Create proof.** **Memory Palace** and **Iris Gate** bind the record with SHA-256 hashes, Ed25519 signatures, Merkle receipts, and minimum-necessary disclosure.
+5. **Apply the test.** The Burgess Principle asks one question: **was a human judicial mind applied to the specific facts of this case?**
+6. **Act on the result.** If the answer is **SOVEREIGN**, the record can stand. If the answer is **NULL**, escalate with the signed proof trail.
 
 ---
 
