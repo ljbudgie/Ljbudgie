@@ -77,7 +77,7 @@ I'm a disabled builder who got tired of that answer. So I built the **Burgess Pr
 | [**burgess-principle**](https://github.com/ljbudgie/burgess-principle) | The doctrinal anchor, governance record, templates, schemas, certification routes, and MIT-open core. **v2.5.0 — Governance & Ecosystem.** |
 | [**Iris**](https://github.com/ljbudgie/Iris) | Flagship sovereign AI implementation layer and federation protocol, deployed at [iris-gate.vercel.app](https://iris-gate.vercel.app). |
 | [**openhear**](https://github.com/ljbudgie/openhear) | World-first sovereign, local-first audio pipeline for hearing aid users. |
-| [**Mirror**](https://github.com/ljbudgie/Mirror) | Local sovereign identity-reflection layer for Mirror Mode and user-controlled profile context. |
+| [**Mirror**](https://github.com/ljbudgie/Mirror) | Local encrypted profile store for Mirror Mode, so Iris can reuse preferred names, greetings, and reflection settings without cloud identity storage. |
 | [**advocate-companion**](https://github.com/ljbudgie/advocate-companion) | Disability-aware self-advocacy layer with reasonable adjustments built in. |
 | [**iris-gate-person**](https://github.com/ljbudgie/iris-gate-person) | Sovereign records and signed-receipt boundary for minimum-necessary disclosure. |
 | [**nexus-ai-hub**](https://github.com/ljbudgie/nexus-ai-hub) | Experimentation space for agents, memory, and connected sovereign tooling. |
@@ -151,7 +151,7 @@ Official **Certified Burgess Principle** use is separate. The UK Certification M
 - 🤝 **Contribute** if you care about **data sovereignty, accountable AI, local-first software, accessibility-first design, or human-review standards**.
 - ⭐ **Star [burgess-principle](https://github.com/ljbudgie/burgess-principle)** to follow the doctrinal releases.
 
-> 📌 **Recommended pinned repos:** `burgess-principle` · `Iris` · `openhear` · `Mirror` · `advocate-companion` · `nexus-ai-hub` · `iris-gate-person`.
+> 📌 **Recommended pinned repos:** `ljbudgie/burgess-principle` · `ljbudgie/Iris` · `ljbudgie/openhear` · `ljbudgie/Mirror` · `ljbudgie/advocate-companion` · `ljbudgie/nexus-ai-hub` · `ljbudgie/iris-gate-person`.
 
 ---
 
