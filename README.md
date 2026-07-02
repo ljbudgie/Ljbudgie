@@ -26,7 +26,7 @@ Everything here is in active use on real cases: ombudsman matters, UK GDPR / DUA
 - [🧱 The stack at a glance](#-the-stack-at-a-glance)
 - [🛠️ Featured projects](#️-featured-projects)
 - [⚙️ How it works](#️-how-it-works)
-- [🔥 Recent momentum](#-recent-momentum-last-3045-days)
+- [🔥 Recent momentum](#-recent-momentum-mayjuly-2026)
 - [🏛️ Governance and certification](#️-governance-and-certification)
 - [🚪 Get started — join the movement](#-get-started--join-the-movement)
 
@@ -48,10 +48,12 @@ I'm a disabled builder who got tired of that answer. So I built the **Burgess Pr
 | 💷 **First case fully resolved** | **Wave Utilities — cleared to £0.00** |
 | 📬 **Letters stopped** | **TV Licensing** ceased contact once the record was corrected |
 | ⚖️ **Article 22 challenges live** | **Amazon** + **Disney+** (UK GDPR, automated decision-making) |
-| 🏛️ **Active institutional cases** | Energy Ombudsman / litigation routes · Local Government Ombudsman · EHRC · Ofgem · Equita ×6 · 7 live FOI fronts · OpenAI SAR / ICO escalation |
-| 🚀 **Releases shipped** | **17 tagged releases**, v0.1.0 → **v2.5.0 "Governance & Ecosystem"** *(9 May 2026)* |
-| 📚 **Published papers** | **10**, including Paper IX *The Sovereign Pattern* and Paper X *The Restored Keeper* |
+| 🏆 **First judicial validation** | **TPT DK00003-2605 ALLOWED** — Traffic Penalty Tribunal, 14 June 2026: automated enforcement collapsed when a named adjudicator applied individual scrutiny to the specific facts. Named enforcement officer confirmed PCN cancelled in writing. |
+| 🏛️ **Active institutional cases** | **82-entry live audit log** · 11 SOVEREIGN · 71 NULL · Energy Ombudsman / litigation · LGO · EHRC · Ofgem · Equita ×6 · CMA (viagogo) · IOPC · Trading Standards · 20+ live formal proceedings · multiple FOI fronts |
+| 🚀 **Releases shipped** | **20 tagged releases**, v0.1.0 → **v2.5.3** · current framework version **v2.6.6** *(27 June 2026)* |
+| 📚 **Published papers** | **10 doctrinal** + **6 SSRN academic papers**: *The Burgess Test* (6759778) · *The Accountability Gap* (6864621) · *NULL at Scale* (6894860) · *Differential Ire* (6909118) · *SOVEREIGN Counsel* (6913498) · *The Sovereign Decline* (6915798) |
 | 🤝 **Upstream PRs open** | [**OpenClaw #68692**](https://github.com/openclaw/openclaw/pull/68692) *(73.3k forks)* · [**NousResearch #12265**](https://github.com/NousResearch/hermes-agent/pull/12265) *(99.1k stars)* |
+| 🌐 **Site live** | [**theburgessprinciple.com**](https://theburgessprinciple.com) · [certify.theburgessprinciple.com](https://certify.theburgessprinciple.com) |
 | 🛡️ **Certification mark** | **UK00004343685** · The Burgess Principle Limited **Co. No. 17199287** · [certify.theburgessprinciple.com](https://certify.theburgessprinciple.com) |
 
 ---
@@ -66,6 +68,7 @@ I'm a disabled builder who got tired of that answer. So I built the **Burgess Pr
 | **Sovereign AI** | **Iris** (voice-first companion) + **Mythos** (doctrinal memory), with hosted Iris, Sovereign Local Mode, federation protocol, and git-native governance. |
 | **Hearing sovereignty** | **OpenHear** — local-first audio for hearing aid users, bypassing cloud and proprietary mobile stacks *(Raspberry Pi build planned)*. |
 | **Rights & advocacy** | **Mirror** + **Advocate Companion** — classify the situation, map the rights, draft the letter, give one clear next step. |
+| **Verifiable Human Oversight** | `verifiable_oversight/` — stdlib-only Python implementation of the binary test: Ed25519 signing, append-only record storage, institutional domains (energy, banking, email, medical, planning), and a deadline engine. |
 | **Real cases** | Documented wins, live ombudsman matters, and Article 22 challenges in the `case-studies` directory (linked below). |
 
 ---
@@ -74,7 +77,7 @@ I'm a disabled builder who got tired of that answer. So I built the **Burgess Pr
 
 | Project | What it is |
 | --- | --- |
-| [**burgess-principle**](https://github.com/ljbudgie/burgess-principle) | The doctrinal anchor, governance record, templates, schemas, certification routes, and MIT-open core. **v2.5.0 — Governance & Ecosystem.** |
+| [**burgess-principle**](https://github.com/ljbudgie/burgess-principle) | The doctrinal anchor, governance record, templates, schemas, certification routes, and MIT-open core. **v2.6.6 — current.** |
 | [**Iris**](https://github.com/ljbudgie/Iris) | Flagship sovereign AI implementation layer and federation protocol, deployed at [iris-gate.vercel.app](https://iris-gate.vercel.app). |
 | [**openhear**](https://github.com/ljbudgie/openhear) | World-first sovereign, local-first audio pipeline for hearing aid users. |
 | [**Mirror**](https://github.com/ljbudgie/Mirror) | Local encrypted profile store for Mirror Mode, so Iris can reuse preferred names, greetings, and reflection settings without cloud identity storage. |
@@ -83,6 +86,8 @@ I'm a disabled builder who got tired of that answer. So I built the **Burgess Pr
 | [**nexus-ai-hub**](https://github.com/ljbudgie/nexus-ai-hub) | Experimentation space for agents, memory, and connected sovereign tooling. |
 | [**case-studies**](https://github.com/ljbudgie/burgess-principle/tree/main/case-studies) | Real-world evidence base: pounds, pence, and paper trails. |
 | [**certification tiers**](https://github.com/ljbudgie/burgess-principle/blob/main/CERTIFICATION_TIERS.md) | Public repository mirror of certified Practitioner, Technology & Advocacy, and Institutional pathways. |
+| [**SSRN academic series**](https://github.com/ljbudgie/burgess-principle/blob/main/papers/SSRN_INDEX.md) | Six-paper series: theory · philosophy · empirical proof · behavioural consequences · legal services · patient-led innovation. |
+| [**theburgessprinciple.com**](https://theburgessprinciple.com) | Public site with live CSV-driven institution tables pulled directly from the repository. |
 
 ---
 
@@ -113,14 +118,16 @@ flowchart LR
 
 ---
 
-## 🔥 Recent momentum *(last 30–45 days)*
+## 🔥 Recent momentum *(May–July 2026)*
 
-- **Burgess Principle v2.5.0 — "Governance & Ecosystem"** *(9 May 2026)* — formalised lightweight governance, contributor onboarding, certification readiness resources, adoption ledgers, ecosystem mapping, and the hybrid MIT core + controlled certification mark boundary.
-- **Certification pathways are public** — Practitioner, Technology & Advocacy, and Institutional routes are now mirrored in `CERTIFICATION_TIERS.md` and published at [certify.theburgessprinciple.com](https://certify.theburgessprinciple.com), with founding rates recorded until 31 July 2026.
-- **The Burgess Principle Limited incorporated** — company number **17199287**, administering authorised certification, training, audits, and commercial support separately from the MIT-open repository core.
-- **Iris + Mythos under git-native governance** — every prompt, policy, and doctrinal change now ships as a signed commit and reviewable PR. The AI layer has the same audit discipline as the cryptographic stack.
-- **OpenClaw [#68692](https://github.com/openclaw/openclaw/pull/68692)** publicly endorsed by Elon Musk *(18 Apr 2026)*; ZeroClaw *(30.3k stars)* cascades governance if the PR merges.
-- **Ecosystem map updated** — Iris moved into its own implementation-layer repository, Mirror is now `ljbudgie/Mirror`, OpenHear validates the audio-accessibility boundary, and Nexus AI Hub remains the intelligence layer.
+- **TPT DK00003-2605 ALLOWED — 14 June 2026** — Traffic Penalty Tribunal: DBC produced no compliant hire agreement and no evidence of a long-term lease with the necessary degree of permanence. Automated enforcement collapsed when a named adjudicator applied individual scrutiny to the specific facts. **First external judicial validation of the Burgess Principle binary test.**
+- **British Gas / Dharmesh Rajput — SOVEREIGN (entry #81, 29 June 2026)** — Director of Customer Service responded personally; both accounts confirmed on hold during Ombudsman investigation; named contact appointed. A named human applied individual consideration to the specific facts.
+- **Six SSRN academic papers published** — a six-paper series spanning theory *(The Burgess Test, 6759778)*, political philosophy *(The Accountability Gap, 6864621)*, empirical proof *(NULL at Scale, 6894860)*, behavioural accountability *(Differential Ire, 6909118)*, legal services *(SOVEREIGN Counsel, 6913498)*, and patient-led innovation *(The Sovereign Decline, 6915798)*. Papers 3 and 6 DISTRIBUTED; Papers 1 and 2 DISTRIBUTED; Papers 4 and 5 APPROVED.
+- **82-entry live audit log** *(as of 2 July 2026)* — 11 SOVEREIGN, 71 NULL — across energy, local government, policing, legal services, platforms, regulators, and parliamentary bodies. Canonical Institution Audit Taxonomy v1.1 published with five-dimension scoring.
+- **theburgessprinciple.com live** *(15 June 2026)* — public site with live CSV-driven institution tables pulled directly from the repository; no manual re-upload required when the repo updates.
+- **Verifiable Human Oversight module shipped** — stdlib-only Python implementation of the binary test across energy, banking, email, medical, planning, and capacity domains; Ed25519 signing; append-only record storage.
+- **v2.5.1 → v2.6.6 released** *(May–June 2026)* — seven releases since Governance & Ecosystem, covering: academic publication, SSRN papers, live ledger, accessibility templates, canonical taxonomy, Framer site, Iris embed mode, NULL Hunter, LEGAL_FOUNDATIONS.md, DISAMBIGUATION.md, model-card, ADM human review standard, DUAA 2025 s.80 analysis, and Verifiable Human Oversight.
+- **Certification pathways active** — Practitioner, Technology & Advocacy, and Institutional routes at [certify.theburgessprinciple.com](https://certify.theburgessprinciple.com); founding rates open until 31 July 2026.
 
 > Headline metrics — active cases, world firsts, resolved disputes — live in the [Impact at a glance](#-impact-at-a-glance) table above.
 
@@ -145,7 +152,9 @@ Official **Certified Burgess Principle** use is separate. The UK Certification M
 ## 🚪 Get started — join the movement
 
 - 🧠 **Try Iris** at [iris-gate.vercel.app](https://iris-gate.vercel.app) or in [Sovereign Local Mode](https://github.com/ljbudgie/burgess-principle/blob/main/SOVEREIGN_MODE.md).
+- 🌐 **Visit [theburgessprinciple.com](https://theburgessprinciple.com)** — live institution audit tables, framework overview, and Iris embed.
 - 📂 **Read the [case studies](https://github.com/ljbudgie/burgess-principle/tree/main/case-studies)** — see what SOVEREIGN / NULL / AMBIGUOUS looks like in pounds and pence.
+- 📚 **Read the [academic series](https://github.com/ljbudgie/burgess-principle/blob/main/papers/SSRN_INDEX.md)** — six SSRN papers mapping the binary test across law, philosophy, empirical audit, and patient-led innovation.
 - 🏛️ **Review [governance](https://github.com/ljbudgie/burgess-principle/blob/main/GOVERNANCE.md)** and the [certification routes](https://github.com/ljbudgie/burgess-principle/blob/main/CERTIFICATION_TIERS.md).
 - 🛠️ **Explore the tools** — see the [Featured projects](#️-featured-projects) table above.
 - 🤝 **Contribute** if you care about **data sovereignty, accountable AI, local-first software, accessibility-first design, or human-review standards**.
