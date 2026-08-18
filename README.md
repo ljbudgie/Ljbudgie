@@ -49,8 +49,8 @@ I'm a disabled builder who got tired of that answer. So I built the **Burgess Pr
 | 📬 **Letters stopped** | **TV Licensing** ceased contact once the record was corrected |
 | ⚖️ **Article 22 challenges live** | **Amazon** + **Disney+** (UK GDPR, automated decision-making) |
 | 🏆 **First judicial validation** | **TPT DK00003-2605 ALLOWED** — Traffic Penalty Tribunal, 14 June 2026: automated enforcement collapsed when a named adjudicator applied individual scrutiny to the specific facts. Named enforcement officer confirmed PCN cancelled in writing. |
-| 🏛️ **Active institutional cases** | **82-entry live audit log** · 11 SOVEREIGN · 71 NULL · Energy Ombudsman / litigation · LGO · EHRC · Ofgem · Equita ×6 · CMA (viagogo) · IOPC · Trading Standards · 20+ live formal proceedings · multiple FOI fronts |
-| 🚀 **Releases shipped** | **20 tagged releases**, v0.1.0 → **v2.5.3** · current framework version **v2.6.6** *(27 June 2026)* |
+| 🏛️ **Active institutional cases** | **90+ entry live audit log** · 11 SOVEREIGN · 71+ NULL · Energy Ombudsman / litigation · LGO · EHRC · Ofgem · Equita ×6 · CMA (viagogo) · IOPC · Trading Standards · Durham Constabulary · Northumbrian Water · PHSO · Audi/VWFS · Experian · 20+ live formal proceedings · multiple FOI fronts |
+| 🚀 **Releases shipped** | **25+ tagged releases**, v0.1.0 → **v2.11.0** (burgess-principle) · **v1.5.0** (openhear) · current framework version **v2.11.0** *(12 Aug 2026)* |
 | 📚 **Published papers** | **10 doctrinal** + **6 SSRN academic papers**: *The Burgess Test* (6759778) · *The Accountability Gap* (6864621) · *NULL at Scale* (6894860) · *Differential Ire* (6909118) · *SOVEREIGN Counsel* (6913498) · *The Sovereign Decline* (6915798) |
 | 🤝 **Upstream PRs open** | [**OpenClaw #68692**](https://github.com/openclaw/openclaw/pull/68692) *(73.3k forks)* · [**NousResearch #12265**](https://github.com/NousResearch/hermes-agent/pull/12265) *(99.1k stars)* |
 | 🌐 **Site live** | [**theburgessprinciple.com**](https://theburgessprinciple.com) · [certify.theburgessprinciple.com](https://certify.theburgessprinciple.com) |
@@ -77,9 +77,9 @@ I'm a disabled builder who got tired of that answer. So I built the **Burgess Pr
 
 | Project | What it is |
 | --- | --- |
-| [**burgess-principle**](https://github.com/ljbudgie/burgess-principle) | The doctrinal anchor, governance record, templates, schemas, certification routes, and MIT-open core. **v2.6.6 — current.** |
+| [**burgess-principle**](https://github.com/ljbudgie/burgess-principle) | The doctrinal anchor, governance record, templates, schemas, certification routes, and MIT-open core. **v2.11.0 — current.** Loop Storyboard institutional-delay classifier, QR accountability receipts, mortgage & insurance letter packs, DUAA 2025 fully in force, free public-sector certification tier. |
 | [**Iris**](https://github.com/ljbudgie/Iris) | Flagship sovereign AI implementation layer and federation protocol, deployed at [iris-gate.vercel.app](https://iris-gate.vercel.app). |
-| [**openhear**](https://github.com/ljbudgie/openhear) | World-first sovereign, local-first audio pipeline for hearing aid users. |
+| [**openhear**](https://github.com/ljbudgie/openhear) | World-first sovereign, local-first audio pipeline for hearing aid users. **v1.5.0** — Living Hearing Profile (multi-layer, versioned, user-owned sensory record), Residual Witness presence-attestation protocol, live wristband accessibility profiles (autism, cerebral palsy, sensory-processing), RNID Research Panel engagement. |
 | [**Mirror**](https://github.com/ljbudgie/Mirror) | Local encrypted profile store for Mirror Mode, so Iris can reuse preferred names, greetings, and reflection settings without cloud identity storage. |
 | [**advocate-companion**](https://github.com/ljbudgie/advocate-companion) | Disability-aware self-advocacy layer with reasonable adjustments built in. |
 | [**iris-gate-person**](https://github.com/ljbudgie/iris-gate-person) | Sovereign records and signed-receipt boundary for minimum-necessary disclosure. |
@@ -118,16 +118,25 @@ flowchart LR
 
 ---
 
-## 🔥 Recent momentum *(May–July 2026)*
+## 🔥 Recent momentum *(July–August 2026)*
 
+- **Starling Bank / Sammy Khan — SOVEREIGN (14 Aug 2026)** — Director of Customer Service responded personally on complaint CMP-9420044399; named human applied individual consideration to the specific facts.
+- **Northern Echo inaccuracy challenge (Aug 2026)** — Formal AI-disclosure and correction request filed over an inaccurate statement on hearing loss in published coverage.
+- **VOA statutory notice served (Aug 2026)** — Notice to L J Barbers Ltd / 26a Duke Street served via Valuation Office Agency.
+- **Loop Storyboard shipped — v2.11.0 (12 Aug 2026)** — New first-run UI and Python classifier (`iris/loop_classifier.py`) for identifying institutional delay patterns (holding responses, auto-acks, referral loops, deadline misses, vexatious classification). Dual-signal result panel: delay pattern classified separately from the binary accountability test. Human-confirmation gate before register entry generated.
+- **QR accountability receipt design (Aug 2026)** — Portable, fact-bound, dual-signal QR receipt for SOVEREIGN/NULL evidence: deterministic, offline-first, minimal payload, with expiry/supersession and no raw content.
+- **OpenHear v1.5.0 — Living Hearing Profile (Aug 2026)** — The public reference profile moved from a static 2021 clinical snapshot to a true multi-layer, versioned, user-owned sensory record. Preference layer refined for mid-frequency speech under high-frequency sloping loss; context map expanded with clinical/ICU and social-noise environments informed by RNID Research Panel feedback; haptic priorities strengthened (alarms, speech, infant cry). First authentic history commitment recorded 12 Aug 2026.
+- **Residual Witness protocol (Aug 2026)** — Continuous, local-only, Living-Hearing-Profile-weighted presence attestation running on OpenHear hardware. Feature hashes only (no raw audio); produces citizen-owned cryptographic evidence of continuous biological presence.
+- **Live wristband accessibility profiles (Aug 2026)** — Opt-in autism, cerebral palsy, and sensory-processing profiles now effective in the live wristband path. Firmware-enforced gentler haptic onset, profile-adjusted confidence gates, refractory timing, and preserved safety-alert perceptibility floor.
+- **RNID Research Panel engagement (Aug 2026)** — Active responses from adults with sensorineural loss (clinicians, audio engineers, cochlear-implant users, long-term aid users) feeding directly into OpenHear preference offsets, context presets, and haptic prioritisation.
+- **Consented audiogram example added** — Profound asymmetric sensorineural loss (left anacusis + residual right, Kathryn Richardson 2022) added with explicit consent as a public reference.
+- **Certification infrastructure — v2.10.0 (8 Aug 2026)** — Free public-sector certification tier, `/apply` form, `INTEGRATION_CONTRACT v2.0`, `NAVIGATION.md`, mortgage and insurance letter packs, banking domain extension, certify-page mobile layout fixed.
 - **TPT DK00003-2605 ALLOWED — 14 June 2026** — Traffic Penalty Tribunal: DBC produced no compliant hire agreement and no evidence of a long-term lease with the necessary degree of permanence. Automated enforcement collapsed when a named adjudicator applied individual scrutiny to the specific facts. **First external judicial validation of the Burgess Principle binary test.**
 - **British Gas / Dharmesh Rajput — SOVEREIGN (entry #81, 29 June 2026)** — Director of Customer Service responded personally; both accounts confirmed on hold during Ombudsman investigation; named contact appointed. A named human applied individual consideration to the specific facts.
 - **Six SSRN academic papers published** — a six-paper series spanning theory *(The Burgess Test, 6759778)*, political philosophy *(The Accountability Gap, 6864621)*, empirical proof *(NULL at Scale, 6894860)*, behavioural accountability *(Differential Ire, 6909118)*, legal services *(SOVEREIGN Counsel, 6913498)*, and patient-led innovation *(The Sovereign Decline, 6915798)*. Papers 3 and 6 DISTRIBUTED; Papers 1 and 2 DISTRIBUTED; Papers 4 and 5 APPROVED.
-- **82-entry live audit log** *(as of 2 July 2026)* — 11 SOVEREIGN, 71 NULL — across energy, local government, policing, legal services, platforms, regulators, and parliamentary bodies. Canonical Institution Audit Taxonomy v1.1 published with five-dimension scoring.
+- **90+ entry live audit log** *(as at Aug 2026)* — 11 SOVEREIGN · 71+ NULL — across energy, local government, policing, legal services, platforms, regulators, parliamentary bodies, valuation, banking, and media correction.
 - **theburgessprinciple.com live** *(15 June 2026)* — public site with live CSV-driven institution tables pulled directly from the repository; no manual re-upload required when the repo updates.
 - **Verifiable Human Oversight module shipped** — stdlib-only Python implementation of the binary test across energy, banking, email, medical, planning, and capacity domains; Ed25519 signing; append-only record storage.
-- **v2.5.1 → v2.6.6 released** *(May–June 2026)* — seven releases since Governance & Ecosystem, covering: academic publication, SSRN papers, live ledger, accessibility templates, canonical taxonomy, Framer site, Iris embed mode, NULL Hunter, LEGAL_FOUNDATIONS.md, DISAMBIGUATION.md, model-card, ADM human review standard, DUAA 2025 s.80 analysis, and Verifiable Human Oversight.
-- **Certification pathways active** — Practitioner, Technology & Advocacy, and Institutional routes at [certify.theburgessprinciple.com](https://certify.theburgessprinciple.com); founding rates open until 31 July 2026.
 
 > Headline metrics — active cases, world firsts, resolved disputes — live in the [Impact at a glance](#-impact-at-a-glance) table above.
 
