@@ -1,1 +1,1 @@
-$(cat /tmp/readme_b64.txt)
+$(base64 -w 0 /tmp/updated_readme.md)
